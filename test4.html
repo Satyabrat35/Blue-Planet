@@ -1,0 +1,83 @@
+<html>
+<head>
+  <meta charset=utf-8 />
+  <title></title>
+  <script src='https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.js'></script>
+  <link href='https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.css' rel='stylesheet' />
+  <style>
+    body {
+      margin: 0;
+      padding :0;
+    }
+    .map {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+<div id='map-popups-js' class='map'> </div>
+<script>
+L.mapbox.accessToken = 'pk.eyJ1IjoiZXJpazM1IiwiYSI6ImNqYm0yYTZmaTRya2gycnFmYndvanFwMzIifQ.HeBrixh5h2c1qRLhve7lIg';
+var mapPopupsJS = L.mapbox.map('map-popups-js', 'mapbox.light')
+  .setView([22.666,-7.05], 1.5);
+var myLayer = L.mapbox.featureLayer().addTo(mapPopupsJS);
+
+var geojson = [
+  {
+    type: 'Feature',
+    geometry: {
+      type: 'Point',
+      coordinates: [37.781,
+          -12.251]
+    },
+    properties: {
+      title: 'African Wild Dog',
+      description: 'The largest populations remain in southern Africa and the southern part of East Africa (especially Tanzania and northern Mozambique)',
+      //image: 'https://farm9.staticflickr.com/8604/15769066303_3e4dcce464_n.jpg',
+      icon: {
+        iconUrl: 'images/leopard.svg',
+        iconSize: [20, 20], // size of the icon
+        iconAnchor: [2, 2], // point of the icon which will correspond to marker's location
+        popupAnchor: [0, -2], // point from which the popup should open relative to the iconAnchor
+        className: 'dot'
+      }
+    }
+  },
+  {
+    type: 'Feature',
+    geometry: {
+      type: 'Point',
+      coordinates: [120.879232,
+          31.823618]
+    },
+    properties: {
+      title: 'Yangtze Finless Porpoise',
+      description: 'The Yangtze River, the longest river in Asia, used to be one of the only two rivers in the world that was home to two different species of dolphin—the Yangtze finless porpoise and the Baiji dolphin',
+      //image: 'https://farm9.staticflickr.com/8571/15844010757_63b093d527_n.jpg',
+      icon: {
+        iconUrl: 'images/track.svg',
+        iconSize: [20, 20], // size of the icon
+        iconAnchor: [2, 2], // point of the icon which will correspond to marker's location
+        popupAnchor: [0, -2], // point from which the popup should open relative to the iconAnchor
+        className: 'dot'
+      }
+    }
+  }
+];
+
+// Set a custom icon on each marker based on feature properties.
+myLayer.on('layeradd', function(e) {
+  var marker = e.layer,
+    feature = marker.feature;
+  marker.setIcon(L.icon(feature.properties.icon));
+  var content = '<p><strong>' + feature.properties.title + '</strong></br>' + feature.properties.description + '</p>';
+  marker.bindPopup(content);
+});
+myLayer.setGeoJSON(geojson);
+mapPopupsJS.scrollWheelZoom.disable();
+</script>
+</body>
+</html>
