@@ -1,0 +1,107 @@
+﻿{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Amur Leopard",
+        "description": "The Amur leopard is also known as the Far East leopard, the Manchurian leopard or the Korean leopard"
+      },
+      "geometry": {
+        "coordinates": [126.94,45.78],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Black Rhino",
+        "description": "Black rhinos are the smaller of the two African rhino species"
+      },
+      "geometry": {
+        "coordinates": [32.65,-17.8],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Bornean Orangutan",
+        "description": "The Bornean orangutan differs in appearance from the Sumatran orangutan, with a broader face and shorter beard and also slightly darker in color"
+      },
+      "geometry": {
+        "coordinates": [113.8,-1.5],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Cross River Gorilla",
+        "description": "Cross River gorillas live in a region populated by many humans who have encroached upon the gorilla’s territory"
+      },
+      "geometry": {
+        "coordinates": [10.15,6.09],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Hawksbill Turtle",
+        "description": "Hawksbills are named for their narrow, pointed beak"
+      },
+      "geometry": {
+        "coordinates": [46,-14],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Douglas Park",
+        "description": "A large park near in Chicago's North Lawndale neighborhood"
+      },
+      "geometry": {
+        "coordinates": [
+          -87.699329,
+          41.860092
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Malayan Tiger",
+        "description": "Their Latin name—Panthera tigris jacksoni—honors Peter Jackson, the famous tiger conservationist"
+      },
+      "geometry": {
+        "coordinates": [99.399,8.3607],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "African Wild Dog",
+        "description": "The largest populations remain in southern Africa and the southern part of East Africa (especially Tanzania and northern Mozambique)"
+      },
+      "geometry": {
+        "coordinates": [37.781,-12.251],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Vaquita",
+        "description": "Vaquita, the world’s most rare marine mammal, is on the edge of extinction"
+      },
+      "geometry": {
+        "coordinates": [-113.959,30.648],
+        "type": "Point"
+      }
+    }
+  ],
+  "type": "FeatureCollection"
+}

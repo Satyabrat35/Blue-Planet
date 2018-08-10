@@ -1,0 +1,233 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.47.0/mapbox-gl.js'></script>
+        <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.47.0/mapbox-gl.css' rel='stylesheet' />
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+            }
+            #map {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+      }
+      .marker {
+  background-image: url('images/pawprint.svg');
+  background-size: cover;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.mapboxgl-popup {
+  max-width: 200px;
+}
+
+.mapboxgl-popup-content {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
+        </style>
+    </head>
+    <body>
+        <div id='map'></div>
+
+    <script>
+
+    mapboxgl.accessToken = 'pk.eyJ1IjoiZXJpazM1IiwiYSI6ImNqYm0yYTZmaTRya2gycnFmYndvanFwMzIifQ.HeBrixh5h2c1qRLhve7lIg';
+
+var map = new mapboxgl.Map({
+  container: 'map',
+  style: 'mapbox://styles/mapbox/light-v9',
+  center: [22.666,-7.05],
+  zoom: 1.5
+});
+
+// code from the next step will go here!
+var geojson = {
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "African Wild Dog",
+        "description": "The largest populations remain in southern Africa and the southern part of East Africa (especially Tanzania and northern Mozambique)",
+        "icon": "Dog"
+      },
+      "geometry": {
+        "coordinates": [
+          37.781,
+          -12.251
+        ],
+        "type": "Point"
+      },
+      "id": "078339b98a6f159053e222057982876b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Yangtze Finless Porpoise",
+        "description": "The Yangtze River, the longest river in Asia, used to be one of the only two rivers in the world that was home to two different species of dolphin—the Yangtze finless porpoise and the Baiji dolphin",
+        "icon": "Dolphin"
+      },
+      "geometry": {
+        "coordinates": [
+          120.879232,
+          31.823618
+        ],
+        "type": "Point"
+      },
+      "id": "51ac8d1a74f0acb1a9ef651984347f04"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Red Panda",
+        "description": "The red panda is slightly larger than a domestic cat with a bear-like body and thick russet fur",
+        "icon": "Panda"
+      },
+      "geometry": {
+        "coordinates": [
+          87.696945,
+          28.741285
+        ],
+        "type": "Point"
+      },
+      "id": "596d962a320bd7c3d2198c990b01fb97"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Bornean Orangutan",
+        "description": "The Bornean orangutan differs in appearance from the Sumatran orangutan, with a broader face and shorter beard and also slightly darker in color",
+        "icon": "Orangutan"
+      },
+      "geometry": {
+        "coordinates": [
+          113.8,
+          -1.5
+        ],
+        "type": "Point"
+      },
+      "id": "6195eabffa26e0773002848874c172bd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Malayan Tiger",
+        "description": "Their Latin name—Panthera tigris jacksoni—honors Peter Jackson, the famous tiger conservationist",
+        "icon": "Tiger"
+      },
+      "geometry": {
+        "coordinates": [
+          99.399,
+          8.3607
+        ],
+        "type": "Point"
+      },
+      "id": "87fb4b41cbd772fa39f0f55ae22ff290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Bluefin Tuna",
+        "description": "Bluefin tuna are made for speed: built like torpedoes, have retractable fins and their eyes are set flush to their body",
+        "icon": "Fish"
+      },
+      "geometry": {
+        "coordinates": [
+          -20.686324,
+          -19.645457
+        ],
+        "type": "Point"
+      },
+      "id": "ad144729aae35b153bc8f68716c4f7ba"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Bonobo",
+        "description": "Bonobos are usually a bit smaller, leaner and darker than chimpanzees",
+        "icon": "Chimpanzee"
+      },
+      "geometry": {
+        "coordinates": [
+          22.800061,
+          -2.362435
+        ],
+        "type": "Point"
+      },
+      "id": "ae5863a52b0fe29bcfe3d25f10bee456"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Vaquita",
+        "description": "Vaquita, the world’s most rare marine mammal, is on the edge of extinction",
+        "icon": "Dolphin"
+      },
+      "geometry": {
+        "coordinates": [
+          -113.959,
+          30.648
+        ],
+        "type": "Point"
+      },
+      "id": "b3758b196d0659b3ff94f50c28a2c168"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Saolo",
+        "description": "Saola (pronounced: sow-la) are recognized by two parallel horns with sharp ends, which can reach 20 inches in length",
+        "icon": "Deer"
+      },
+      "geometry": {
+        "coordinates": [
+          104.885054,
+          19.285859
+        ],
+        "type": "Point"
+      },
+      "id": "c1f2cc18ccfedd16c06288570417de84"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Amur Leopard",
+        "description": "The Amur leopard is also known as the Far East leopard, the Manchurian leopard or the Korean leopard",
+        "icon": "Leopard"
+      },
+      "geometry": {
+        "coordinates": [
+          126.94,
+          45.78
+        ],
+        "type": "Point"
+      },
+      "id": "e46b4099cb36042e0b4fdc105fa7c3f6"
+    }
+  ],
+  "type": "FeatureCollection"
+}
+geojson.features.forEach(function(marker) {
+    var ele = document.createElement('div');
+    ele.className = 'marker';
+    new mapboxgl.Marker(ele)
+    .setLngLat(marker.geometry.coordinates)
+    .setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
+    .setHTML('<h3>' + marker.properties.title + '</h3><p>' + marker.properties.description + '</p>'))
+    .addTo(map);
+});
+
+</script>
+
+    </body>
+</html>
