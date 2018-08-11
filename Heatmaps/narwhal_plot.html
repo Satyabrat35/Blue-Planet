@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <meta charset='utf-8' />
+    <title>Points on a map</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.47.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.47.0/mapbox-gl.css' rel='stylesheet' />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      #map {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id='map'></div>
+    <script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoiZXJpazM1IiwiYSI6ImNqYm0yYTZmaTRya2gycnFmYndvanFwMzIifQ.HeBrixh5h2c1qRLhve7lIg'; // replace this with your access token
+    var map = new mapboxgl.Map({
+      container: 'map',
+      style: 'mapbox://styles/erik35/cjkpuca3radvv2rp9bz1vr126', 
+      center: [-62.468,72.236],
+      zoom: 3
+    });
+    map.on('click', function(e) {
+    var features = map.queryRenderedFeatures(e.point, {
+        layers: ['narwhal'] 
+    });
+});
+    </script>
+  </body>
+</html>
