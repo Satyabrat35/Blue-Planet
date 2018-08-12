@@ -12,6 +12,9 @@
     <link href='https://fonts.googleapis.com/css?family=Alex Brush' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Annie Use Your Telescope' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Crafty Girls' rel='stylesheet'>
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.47.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.47.0/mapbox-gl.css' rel='stylesheet' />
+    <script src="/Heatmaps/narwhal.js"></script>
 <style>
     .carousel-inner > .item > img,
     .carousel-inner > .item > a > img {
@@ -28,23 +31,23 @@
   body {
    background-image: url("pictures/back.jpg");
 }
+  
 </style>
 </head>
 
 
 <body>
 
-<div class="container">
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
       <a class="navbar-brand" href="#">WebSiteName</a>
     </div>
     <ul class="nav navbar-nav">
       <li class="active"><a href="#">Home</a></li>
-      <li><a href="#">Facts</a></li>
+      <li><a href="#facts">Facts</a></li>
+      <li><a href="#map">Heat Map</a></li>
       <li><a href="#">Contact Us</a></li>
-      <li><a href="#">Page 3</a></li>
     </ul>
   </div>
 </nav>   
@@ -90,15 +93,23 @@
   </div>
   <br/>
   <br/>
-  <center> <h1> <font face="italic " color="green"> FACTS </font> </h1> </center>
-
-  
-  <div class = "box">
-       <p> One of the main nesting zones for iguanas is located on a central tourist beach in the waterfront area of Puerto Villamil on Isabela Island. For several years, the Galápagos National Park protected only the central part of the nesting zone. In 2012, WWF, the Municipality of Isabela and the Charles Darwin Foundation extended the protected area to include the entire nesting zone. As part of this effort, additional signs for both tourists and local communities inform them about the importance of this nesting zone. A temporary fence was also built to protect the area and allow iguanas to pass through.
-       </p> 
+  <center> <h1> <font face="Comic Sans MS" color="green"> FACTS </font> </h1> </center>
+  <div class="facts">
+      <p id ="facts">
+            One of the main nesting zones for iguanas is located on a central tourist beach in the waterfront area of Puerto Villamil on Isabela Island. For several years, the Galápagos National Park protected only the central part of the nesting zone. In 2012, WWF, the Municipality of Isabela and the Charles Darwin Foundation extended the protected area to include the entire nesting zone. As part of this effort, additional signs for both tourists and local communities inform them about the importance of this nesting zone. A temporary fence was also built to protect the area and allow iguanas to pass through.
+      </p>    
   </div>
-
-
+  <br/>
+  <br/>
+  <h1> <center> <font face="verdana" color="green"> HEAT MAP </font> </center> </h1>
+  <div class="map">
+    <div id="map2" item-width="100%" item-height="100%">
+      <center>
+        <p id="map"></p>
+            <iframe width='400' height='400' frameBorder='2' src='https://api.mapbox.com/styles/v1/erik35/cjkqyhuehbeu32sn52dmqzbh7.html?fresh=true&title=true&access_token=pk.eyJ1IjoiZXJpazM1IiwiYSI6ImNqYm0yYTZmaTRya2gycnFmYndvanFwMzIifQ.HeBrixh5h2c1qRLhve7lIg#5.9/-0.540692/-90.150795/0'></iframe>
+      </center>
+    </div>
+  </div>
 </div>
 
 </body>
