@@ -76,7 +76,8 @@ var geojson = {
         ],
         "type": "Point"
       },
-      "id": "0a27f4417134be5cbcc018c8f5fdb3c9"
+      "id": "0a27f4417134be5cbcc018c8f5fdb3c9"	
+
     },
     {
       "type": "Feature",
@@ -609,18 +610,21 @@ var geojson = {
   "type": "FeatureCollection"
 }
 
+
 geojson.features.forEach(function(marker) {
     var ele = document.createElement('div');
+    console.log(marker.properties.title );
     ele.className = 'marker';
     ele.style.backgroundImage = 'url(' + marker.properties.iconUrl + ')';
     new mapboxgl.Marker(ele)
     .setLngLat(marker.geometry.coordinates)
     .setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
-    .setHTML('<h3>' + marker.properties.title + '</h3><p>' + marker.properties.description + '</p>'))
+    .setHTML('<h1>' + marker.properties.title  + '</h1><p>' + marker.properties.description + '</p><button><a href="marker.properties.title.html"> Click me </a></button>'))
     .addTo(map);
 });
 
 </script>
+
 
     </body>
 </html>
