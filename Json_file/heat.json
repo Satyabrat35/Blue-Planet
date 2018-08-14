@@ -9,6 +9,36 @@
             "name":"Marine Iguana",
             "iframe":"https://api.mapbox.com/styles/v1/erik35/cjkqyhuehbeu32sn52dmqzbh7.html?fresh=true&title=true&access_token=pk.eyJ1IjoiZXJpazM1IiwiYSI6ImNqYm0yYTZmaTRya2gycnFmYndvanFwMzIifQ.HeBrixh5h2c1qRLhve7lIg#5.9/-0.540692/-90.150795/0",
             "style":"mapbox://styles/erik35/cjkqyhuehbeu32sn52dmqzbh7"
+        },
+        {
+            "name":"Beluga",
+            "iframe":"https://api.mapbox.com/styles/v1/erik35/cjktxs1bm0e4f2snsrhgl7pxk.html?fresh=true&title=true&access_token=pk.eyJ1IjoiZXJpazM1IiwiYSI6ImNqYm0yYTZmaTRya2gycnFmYndvanFwMzIifQ.HeBrixh5h2c1qRLhve7lIg#8.0/34.243000/-118.076000/0",
+            "style":"mapbox://styles/erik35/cjktxs1bm0e4f2snsrhgl7pxk"
+        },
+        {
+            "name":"Plain Bisons",
+            "iframe":"https://api.mapbox.com/styles/v1/erik35/cjkty545x05gd2rvtd2kyicnr.html?fresh=true&title=true&access_token=pk.eyJ1IjoiZXJpazM1IiwiYSI6ImNqYm0yYTZmaTRya2gycnFmYndvanFwMzIifQ.HeBrixh5h2c1qRLhve7lIg#8.0/34.243000/-118.076000/0",
+            "style":"mapbox://styles/erik35/cjkty545x05gd2rvtd2kyicnr"
+        },
+        {
+            "name":"Vaquita",
+            "iframe":"https://api.mapbox.com/styles/v1/erik35/cjktybudf0yqz2ss2g5p082wl.html?fresh=true&title=true&access_token=pk.eyJ1IjoiZXJpazM1IiwiYSI6ImNqYm0yYTZmaTRya2gycnFmYndvanFwMzIifQ.HeBrixh5h2c1qRLhve7lIg#8.0/34.243000/-118.076000/0",
+            "style":"mapbox://styles/erik35/cjktybudf0yqz2ss2g5p082wl"
+        },
+        {
+            "name":"Great White Shark",
+            "iframe":"https://api.mapbox.com/styles/v1/erik35/cjktyiy7b0x552rrqhkmy22c2.html?fresh=true&title=true&access_token=pk.eyJ1IjoiZXJpazM1IiwiYSI6ImNqYm0yYTZmaTRya2gycnFmYndvanFwMzIifQ.HeBrixh5h2c1qRLhve7lIg#8.0/34.243000/-118.076000/0",
+            "style":"mapbox://styles/erik35/cjktyiy7b0x552rrqhkmy22c2"
+        },
+        {
+            "name":"Dugong",
+            "iframe":"https://api.mapbox.com/styles/v1/erik35/cjktyu71e07bq2rpvrmxngfk5.html?fresh=true&title=true&access_token=pk.eyJ1IjoiZXJpazM1IiwiYSI6ImNqYm0yYTZmaTRya2gycnFmYndvanFwMzIifQ.HeBrixh5h2c1qRLhve7lIg#8.0/34.243000/-118.076000/0",
+            "style":"mapbox://styles/erik35/cjktyu71e07bq2rpvrmxngfk5"
+        },
+        {
+            "name":"Cross River Gorilla",
+            "iframe":"https://api.mapbox.com/styles/v1/erik35/cjktzpu5s06we2rvtoobv5pfi.html?fresh=true&title=true&access_token=pk.eyJ1IjoiZXJpazM1IiwiYSI6ImNqYm0yYTZmaTRya2gycnFmYndvanFwMzIifQ.HeBrixh5h2c1qRLhve7lIg#8.0/34.243000/-118.076000/0",
+            "style":"mapbox://styles/erik35/cjktzpu5s06we2rvtoobv5pfi"
         }
     ]
 }
