@@ -1,0 +1,14 @@
+{
+    "features": [
+        {
+            "name":"Narwhal",
+            "iframe":"https://api.mapbox.com/styles/v1/erik35/cjkpuca3radvv2rp9bz1vr126.html?fresh=true&title=true&access_token=pk.eyJ1IjoiZXJpazM1IiwiYSI6ImNqYm0yYTZmaTRya2gycnFmYndvanFwMzIifQ.HeBrixh5h2c1qRLhve7lIg#3.0/72.235554/-62.467918/0",
+            "style":"mapbox://styles/erik35/cjkpuca3radvv2rp9bz1vr126"
+        },
+        {
+            "name":"Marine Iguana",
+            "iframe":"https://api.mapbox.com/styles/v1/erik35/cjkqyhuehbeu32sn52dmqzbh7.html?fresh=true&title=true&access_token=pk.eyJ1IjoiZXJpazM1IiwiYSI6ImNqYm0yYTZmaTRya2gycnFmYndvanFwMzIifQ.HeBrixh5h2c1qRLhve7lIg#5.9/-0.540692/-90.150795/0",
+            "style":"mapbox://styles/erik35/cjkqyhuehbeu32sn52dmqzbh7"
+        }
+    ]
+}
