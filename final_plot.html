@@ -208,8 +208,8 @@ var geojson = {
       },
       "geometry": {
         "coordinates": [
-          -173.921639,
-          58.285395
+          -146.759639,
+          10.285395
         ],
         "type": "Point"
       },
@@ -613,13 +613,12 @@ var geojson = {
 
 geojson.features.forEach(function(marker) {
     var ele = document.createElement('div');
-    console.log(marker.properties.title );
     ele.className = 'marker';
     ele.style.backgroundImage = 'url(' + marker.properties.iconUrl + ')';
     new mapboxgl.Marker(ele)
     .setLngLat(marker.geometry.coordinates)
     .setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
-    .setHTML('<h1>' + marker.properties.title  + '</h1><p>' + marker.properties.description + '</p><button><a href="marker.properties.title.html"> Click me </a></button>'))
+    .setHTML('<h1>' + marker.properties.title + '</h1><p>' + marker.properties.description + '</p><button >Click Me</button>'))
     .addTo(map);
 });
 
