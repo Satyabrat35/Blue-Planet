@@ -39,6 +39,49 @@
             "name":"Cross River Gorilla",
             "iframe":"https://api.mapbox.com/styles/v1/erik35/cjktzpu5s06we2rvtoobv5pfi.html?fresh=true&title=true&access_token=pk.eyJ1IjoiZXJpazM1IiwiYSI6ImNqYm0yYTZmaTRya2gycnFmYndvanFwMzIifQ.HeBrixh5h2c1qRLhve7lIg#8.0/34.243000/-118.076000/0",
             "style":"mapbox://styles/erik35/cjktzpu5s06we2rvtoobv5pfi"
+        },
+        {
+            "name":"Green Turtle",
+            "iframe":"https://api.mapbox.com/styles/v1/erik35/cjkuqnojs1n7l2rqmdtbb94u3.html?fresh=true&title=true&access_token=pk.eyJ1IjoiZXJpazM1IiwiYSI6ImNqYm0yYTZmaTRya2gycnFmYndvanFwMzIifQ.HeBrixh5h2c1qRLhve7lIg#8.0/34.243000/-118.076000/0",
+            "style":"mapbox://styles/erik35/cjkuqnojs1n7l2rqmdtbb94u3"
+        },
+        {
+            "name":"Sea Lions",
+            "iframe":"https://api.mapbox.com/styles/v1/erik35/cjkuqwaj81p6x2ss2qw4hamhh.html?fresh=true&title=true&access_token=pk.eyJ1IjoiZXJpazM1IiwiYSI6ImNqYm0yYTZmaTRya2gycnFmYndvanFwMzIifQ.HeBrixh5h2c1qRLhve7lIg#8.0/34.243000/-118.076000/0",
+            "style":"mapbox://styles/erik35/cjkuqwaj81p6x2ss2qw4hamhh"
+        },
+        {
+            "name":"Blue Whale",
+            "iframe":"https://api.mapbox.com/styles/v1/erik35/cjkur4spc1npr2rrqjkj7oojg.html?fresh=true&title=true&access_token=pk.eyJ1IjoiZXJpazM1IiwiYSI6ImNqYm0yYTZmaTRya2gycnFmYndvanFwMzIifQ.HeBrixh5h2c1qRLhve7lIg#8.0/34.243000/-118.076000/0",
+            "style":"mapbox://styles/erik35/cjkur4spc1npr2rrqjkj7oojg"
+        },
+        {
+            "name":"Black Spider Monkey",
+            "iframe":"https://api.mapbox.com/styles/v1/erik35/cjkurerz604dn2rujb85roi4l.html?fresh=true&title=true&access_token=pk.eyJ1IjoiZXJpazM1IiwiYSI6ImNqYm0yYTZmaTRya2gycnFmYndvanFwMzIifQ.HeBrixh5h2c1qRLhve7lIg#8.0/34.243000/-118.076000/0",
+            "style":"mapbox://styles/erik35/cjkurerz604dn2rujb85roi4l"
+        },
+        {
+            "name":"Jaguar",
+            "iframe":"https://api.mapbox.com/styles/v1/erik35/cjkurs8sd1fdc2snxybky1lab.html?fresh=true&title=true&access_token=pk.eyJ1IjoiZXJpazM1IiwiYSI6ImNqYm0yYTZmaTRya2gycnFmYndvanFwMzIifQ.HeBrixh5h2c1qRLhve7lIg#8.0/34.243000/-118.076000/0",
+            "style":"mapbox://styles/erik35/cjkurs8sd1fdc2snxybky1lab"
+        },
+        {
+            "name":"Bluefin Tuna",
+            "iframe":"https://api.mapbox.com/styles/v1/erik35/cjkv6jn3p01252rmg74abua4l.html?fresh=true&title=true&access_token=pk.eyJ1IjoiZXJpazM1IiwiYSI6ImNqYm0yYTZmaTRya2gycnFmYndvanFwMzIifQ.HeBrixh5h2c1qRLhve7lIg#8.0/34.243000/-118.076000/0",
+            "style":"mapbox://styles/erik35/cjkv6jn3p01252rmg74abua4l"
+        },
+        {
+            "name":"Bonobo",
+            "iframe":"https://api.mapbox.com/styles/v1/erik35/cjkv6rb2k0tpu2ro5ml6fq273.html?fresh=true&title=true&access_token=pk.eyJ1IjoiZXJpazM1IiwiYSI6ImNqYm0yYTZmaTRya2gycnFmYndvanFwMzIifQ.HeBrixh5h2c1qRLhve7lIg#8.0/34.243000/-118.076000/0",
+            "style":"mapbox://styles/erik35/cjkv6rb2k0tpu2ro5ml6fq273"
+        },
+        {
+            "name":"Black Rhino",
+            "iframe":"https://api.mapbox.com/styles/v1/erik35/cjkv6yzw00ime2rujooznt69n.html?fresh=true&title=true&access_token=pk.eyJ1IjoiZXJpazM1IiwiYSI6ImNqYm0yYTZmaTRya2gycnFmYndvanFwMzIifQ.HeBrixh5h2c1qRLhve7lIg#8.0/34.243000/-118.076000/0",
+            "style":"mapbox://styles/erik35/cjkv6yzw00ime2rujooznt69n"
+        },
+        {
+            
         }
     ]
 }
