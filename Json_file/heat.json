@@ -81,7 +81,14 @@
             "style":"mapbox://styles/erik35/cjkv6yzw00ime2rujooznt69n"
         },
         {
-            
+            "name":"African Wild Dog",
+            "iframe":"https://api.mapbox.com/styles/v1/erik35/cjkv7gugk0b6n2rny6y8s43vd.html?fresh=true&title=true&access_token=pk.eyJ1IjoiZXJpazM1IiwiYSI6ImNqYm0yYTZmaTRya2gycnFmYndvanFwMzIifQ.HeBrixh5h2c1qRLhve7lIg#8.0/34.243000/-118.076000/0",
+            "style":"mapbox://styles/erik35/cjkv7gugk0b6n2rny6y8s43vd"
+        },
+        {
+            "name":"Hawksbill Turtle",
+            "iframe":"https://api.mapbox.com/styles/v1/erik35/cjkv7q8y422x32slkeu37kxm0.html?fresh=true&title=true&access_token=pk.eyJ1IjoiZXJpazM1IiwiYSI6ImNqYm0yYTZmaTRya2gycnFmYndvanFwMzIifQ.HeBrixh5h2c1qRLhve7lIg#8.0/34.243000/-118.076000/0",
+            "style":"mapbox://styles/erik35/cjkv7q8y422x32slkeu37kxm0"
         }
     ]
 }

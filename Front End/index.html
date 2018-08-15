@@ -31,6 +31,29 @@
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
       background-color:lemonchiffon;
     }
+    .project {
+      width: 100%;
+      height: 250px;
+      position: relative;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin-bottom: 40px;
+    }
+    .overlay {
+      display: table;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      background-color:azure;
+      overflow: hidden;
+      z-index: 10;
+      transition: opacity 0.5s ease-out;
+    }
     </style>
 
     <!-- Bootstrap core CSS -->
@@ -186,6 +209,32 @@
           <p style="padding-top: 25px;padding-bottom: 0px;color: indianred;font-size: 20px;">Marine iguanas are the world’s only oceangoing lizard. 
             They are also only found in the Galápagos, where they can be seen resting on the rocky shores.</p>
         </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features" id="features">
+      <div class="container">
+        <div class="section-heading">
+          <div class="section-heading text-center">
+            <h2 style="color:darkslateblue"> HOW YOU CAN HELP</h2>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="project">
+                <div class="overlay">
+                  <h4 style="padding-left: 8px;padding-top:10px ;color: blueviolet;font-weight: 500"><strong>STOP WILDLIFE CRIME</strong></h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="project">
+                <div class="overlay">
+                  <h4 style="padding-left: 8px;padding-top: 10px;color: blueviolet;font-weight: 500"><strong>JOIN WWF'S CONSERVATION EFFORT</strong></h4>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
