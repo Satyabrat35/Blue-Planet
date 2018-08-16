@@ -618,7 +618,7 @@ geojson.features.forEach(function(marker) {
     new mapboxgl.Marker(ele)
     .setLngLat(marker.geometry.coordinates)
     .setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
-    .setHTML('<h1>' + marker.properties.title + '</h1><p>' + marker.properties.description + '</p><button >Click Me</button>'))
+    .setHTML('<h1>' + marker.properties.title + '</h1><p>' + marker.properties.description + '</p><button> <a href = "Front/index.html" >Click Me </a> </button>'))
     .addTo(map);
 });
 
