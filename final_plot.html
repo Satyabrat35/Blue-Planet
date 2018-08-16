@@ -3,6 +3,9 @@
         <meta charset="utf-8">
         <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.47.0/mapbox-gl.js'></script>
         <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.47.0/mapbox-gl.css' rel='stylesheet' />
         <style>
@@ -618,7 +621,7 @@ geojson.features.forEach(function(marker) {
     new mapboxgl.Marker(ele)
     .setLngLat(marker.geometry.coordinates)
     .setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
-    .setHTML('<h1>' + marker.properties.title + '</h1><p>' + marker.properties.description + '</p><button> <a href = "Front/index.html" >Click Me </a> </button>'))
+    .setHTML('<h1>' + marker.properties.title + '</h1><p>' + marker.properties.description + '</p><button class="btn btn-info"> <a href = "Front/index.html" style="text-decoration:none;color:white">Click Me </a> </button>'))
     .addTo(map);
 });
 
