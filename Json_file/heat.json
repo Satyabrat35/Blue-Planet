@@ -251,6 +251,107 @@
             "pic_1":"",
             "pic_2":"",   
             "pic_3":""     
+        },
+        {
+            "name":"Bigeye Tuna",
+            "iframe":"https://api.mapbox.com/styles/v1/erik35/cjkzc60625zfv2so1ruefwjgc.html?fresh=true&title=true&access_token=pk.eyJ1IjoiZXJpazM1IiwiYSI6ImNqYm0yYTZmaTRya2gycnFmYndvanFwMzIifQ.HeBrixh5h2c1qRLhve7lIg#8.0/34.243000/-118.076000/0",
+            "style":"mapbox://styles/erik35/cjkzc60625zfv2so1ruefwjgc",
+            "facts":"Bigeye tuna are generally smaller than bluefin and larger than yellowfin. They are long and streamlined, have dark metallic blue on their backs and upper sides, and are nearly white on their lower sides and belly. They can live as long as 10 to 12 years. Bigeye are found in the subtropical and tropical areas of the Atlantic (but not in the Mediterranean), Indian and Pacific Oceans.",
+            "status":"Vulnerable",
+            "scientific name":"Thunnus obesus",
+            "habitat":"Oceans",
+            "places":"Indian Ocean, Coastal East Africa",
+            "matter":"Bigeye tuna are an important commercial fish, usually marketed as fresh or frozen. Although tuna do provide food and livelihoods for people, they are more than just seafood. Tuna are a top predator in the marine food chain, maintaining a balance in the ocean environment.",
+            "pic_1":"",
+            "pic_2":"",
+            "pic_3":""
+        },
+        {
+            "name":"Indian Elephant",
+            "iframe":"https://api.mapbox.com/styles/v1/erik35/cjkzcmfae46i62soa7787ces5.html?fresh=true&title=true&access_token=pk.eyJ1IjoiZXJpazM1IiwiYSI6ImNqYm0yYTZmaTRya2gycnFmYndvanFwMzIifQ.HeBrixh5h2c1qRLhve7lIg#8.0/34.243000/-118.076000/0",
+            "style":"mapbox://styles/erik35/cjkzcmfae46i62soa7787ces5"
+        },
+        {
+            "name":"Red Panda",
+            "iframe":"https://api.mapbox.com/styles/v1/erik35/cjkzczvtd57gq2rpivjkqwf44.html?fresh=true&title=true&access_token=pk.eyJ1IjoiZXJpazM1IiwiYSI6ImNqYm0yYTZmaTRya2gycnFmYndvanFwMzIifQ.HeBrixh5h2c1qRLhve7lIg#8.0/34.243000/-118.076000/0",
+            "style":"mapbox://styles/erik35/cjkzczvtd57gq2rpivjkqwf44",
+            "facts":"The red panda is slightly larger than a domestic cat with a bear-like body and thick russet fur. The belly and limbs are black, and there are white markings on the side of the head and above its small eyes. Red pandas are very skillful and acrobatic animals that predominantly stay in trees. Almost 50% of the red panda’s habitat is in the Eastern Himalayas. They use their long, bushy tails for balance and to cover themselves in winter, presumably for warmth. Primarily an herbivore, the name panda is said to come from the Nepali word ‘ponya,’ which means bamboo or plant eating animal.",
+            "status":"Endangered",
+            "scientific name":"Ailurus fulgens",
+            "places":"Eastern Himalayas",
+            "habitat":"Temperate Forests",
+            "matter":"Almost 50 percent of the red panda’s habitat is in the Eastern Himalayas. The loss of nesting trees and bamboo is causing a decline in red panda populations across much of their range because their forest home is being cleared.",
+            "pic_1":"",
+            "pic_2":"",
+            "pic_3":""
+        },
+        {
+            "name":"Snow Leopard",
+            "iframe":"https://api.mapbox.com/styles/v1/erik35/cjkzd8ald60ee2so1g257b75r.html?fresh=true&title=true&access_token=pk.eyJ1IjoiZXJpazM1IiwiYSI6ImNqYm0yYTZmaTRya2gycnFmYndvanFwMzIifQ.HeBrixh5h2c1qRLhve7lIg#8.0/34.243000/-118.076000/0",
+            "style":"mapbox://styles/erik35/cjkzd8ald60ee2so1g257b75r",
+            "facts":"The snow leopard’s powerful build allows it to scale great steep slopes with ease. Its hind legs give the snow leopard the ability to leap six times the length of its body. A long tail provides balance and agility and also wraps around the resting snow leopard as protection from the cold.",
+            "status":"Vulnerable",
+            "habitat":"Cold High Mountains",
+            "places":"Eastern Himalayas",
+            "scientific name":"Panthera uncia",
+            "matter":"Snow leopards play a key role as both top predator and as an indicator of the health of their high-altitude habitat. If snow leopards thrive, so will countless other species.",
+            "pic_1":"",
+            "pic_2":"",
+            "pic_3":""
+        },
+        {
+            "name":"Malayan Tiger",
+            "iframe":"https://api.mapbox.com/styles/v1/erik35/cjkziftyu0ym32ql8fgigplxh.html?fresh=true&title=true&access_token=pk.eyJ1IjoiZXJpazM1IiwiYSI6ImNqYm0yYTZmaTRya2gycnFmYndvanFwMzIifQ.HeBrixh5h2c1qRLhve7lIg#0.8/27.598788/63.951980/0",
+            "style":"mapbox://styles/erik35/cjkziftyu0ym32ql8fgigplxh"
+        },
+        {
+            "name":"Saola",
+            "iframe":"https://api.mapbox.com/styles/v1/erik35/cjkziqvor4c772soaybl4z9mj.html?fresh=true&title=true&access_token=pk.eyJ1IjoiZXJpazM1IiwiYSI6ImNqYm0yYTZmaTRya2gycnFmYndvanFwMzIifQ.HeBrixh5h2c1qRLhve7lIg#8.0/34.243000/-118.076000/0",
+            "style":"mapbox://styles/erik35/cjkziqvor4c772soaybl4z9mj"
+        },
+        {
+            "name":"Sumatran Elephant",
+            "iframe":"https://api.mapbox.com/styles/v1/erik35/cjkzj1evg0zja2sp9v6c0kw7n.html?fresh=true&title=true&access_token=pk.eyJ1IjoiZXJpazM1IiwiYSI6ImNqYm0yYTZmaTRya2gycnFmYndvanFwMzIifQ.HeBrixh5h2c1qRLhve7lIg#8.0/34.243000/-118.076000/0",
+            "style":"mapbox://styles/erik35/cjkzj1evg0zja2sp9v6c0kw7n"
+        },
+        {
+            "name":"Bornean Orangutan",
+            "iframe":"https://api.mapbox.com/styles/v1/erik35/cjkzjeopw4cp22rqtovh9iqy5.html?fresh=true&title=true&access_token=pk.eyJ1IjoiZXJpazM1IiwiYSI6ImNqYm0yYTZmaTRya2gycnFmYndvanFwMzIifQ.HeBrixh5h2c1qRLhve7lIg#8.0/34.243000/-118.076000/0",
+            "style":"mapbox://styles/erik35/cjkzjeopw4cp22rqtovh9iqy5"
+        },
+        {
+            "name":"Yangtze Finless Porpoise",
+            "iframe":"https://api.mapbox.com/styles/v1/erik35/cjkzjnk7l4czl2rnylhezxzf4.html?fresh=true&title=true&access_token=pk.eyJ1IjoiZXJpazM1IiwiYSI6ImNqYm0yYTZmaTRya2gycnFmYndvanFwMzIifQ.HeBrixh5h2c1qRLhve7lIg#8.0/34.243000/-118.076000/0",
+            "style":"mapbox://styles/erik35/cjkzjnk7l4czl2rnylhezxzf4"
+        },
+        {
+            "name":"Amur Leopard",
+            "iframe":"https://api.mapbox.com/styles/v1/erik35/cjkzk9io964yv2slkh7aw8yuk.html?fresh=true&title=true&access_token=pk.eyJ1IjoiZXJpazM1IiwiYSI6ImNqYm0yYTZmaTRya2gycnFmYndvanFwMzIifQ.HeBrixh5h2c1qRLhve7lIg#8.0/34.243000/-118.076000/0",
+            "style":"mapbox://styles/erik35/cjkzk9io964yv2slkh7aw8yuk"
+        },
+        {
+            "name":"Humphead Wrasse",
+            "iframe":"https://api.mapbox.com/styles/v1/erik35/cjkzkmioo111a2sp9ku37m6s4.html?fresh=true&title=true&access_token=pk.eyJ1IjoiZXJpazM1IiwiYSI6ImNqYm0yYTZmaTRya2gycnFmYndvanFwMzIifQ.HeBrixh5h2c1qRLhve7lIg#8.0/34.243000/-118.076000/0",
+            "style":"mapbox://styles/erik35/cjkzkmioo111a2sp9ku37m6s4"
+        },
+        {
+            "name":"Rockhopper Penguin",
+            "iframe":"https://api.mapbox.com/styles/v1/erik35/cjkzkwwbv3q7q2rpexlbz3bdu.html?fresh=true&title=true&access_token=pk.eyJ1IjoiZXJpazM1IiwiYSI6ImNqYm0yYTZmaTRya2gycnFmYndvanFwMzIifQ.HeBrixh5h2c1qRLhve7lIg#8.0/34.243000/-118.076000/0",
+            "style":"mapbox://styles/erik35/cjkzkwwbv3q7q2rpexlbz3bdu",
+            "facts":"Much smaller in size than the emperor penguin, rockhopper penguins weigh less than 10 lbs. They were named for their distinctive hopping movements over the rocky hills and cliffs where they live and breed. In the last 30 years, it is estimated that the population of rockhoppers has fallen by nearly 25 percent—and now climate change could place them at even greater risk.",
+            "status":"Vulnerable",
+            "habitat":"Oceans and Coasts",
+            "places":"Southern New Zealand",
+            "scientific name":"Eudyptes chrysocome",
+            "matter":"Southern rockhopper penguins are the smallest of the crested penguins weighing only 2–3.8 kg. They are thus only bigger than little penguins.",
+            "pic_1":"",
+            "pic_2":"",
+            "pic_3":""
+        },
+        {
+            "name":"Polar Bear",
+            "iframe":"https://api.mapbox.com/styles/v1/erik35/cjkzl6nvh1lgt2sof7pc70g1y.html?fresh=true&title=true&access_token=pk.eyJ1IjoiZXJpazM1IiwiYSI6ImNqYm0yYTZmaTRya2gycnFmYndvanFwMzIifQ.HeBrixh5h2c1qRLhve7lIg#8.0/34.243000/-118.076000/0",
+            "style":"mapbox://styles/erik35/cjkzl6nvh1lgt2sof7pc70g1y"
         }
     ]
 }
