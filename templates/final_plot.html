@@ -1,4 +1,69 @@
-{
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.47.0/mapbox-gl.js'></script>
+        <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.47.0/mapbox-gl.css' rel='stylesheet' />
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+            }
+            #map {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+      }
+      .marker {
+  background-image: url('images/pawprint.svg');
+  background-size: cover;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.mapboxgl-popup {
+  max-width: 200px;
+}
+
+.mapboxgl-popup-content {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
+        </style>
+    </head>
+    <body>
+        <div id='map'></div>
+
+    <script>
+
+    mapboxgl.accessToken = 'pk.eyJ1IjoiZXJpazM1IiwiYSI6ImNqYm0yYTZmaTRya2gycnFmYndvanFwMzIifQ.HeBrixh5h2c1qRLhve7lIg';
+
+if (!mapboxgl.supported()){
+  alert("Your browser does not support Mapbox GL");
+}
+else {
+
+var map = new mapboxgl.Map({
+  container: 'map',
+  style: 'mapbox://styles/erik35/cjkpv1eby76nd2rpjqg4x8dk0',
+  center: [1.33,30.14],
+  zoom: 1.8
+});
+}
+
+map.addControl(new mapboxgl.NavigationControl());
+
+var geojson = {
   "features": [
     {
       "type": "Feature",
@@ -6,7 +71,7 @@
         "title": "Red Panda",
         "description": "The red panda is slightly larger than a domestic cat with a bear-like body and thick russet fur",
         "icon": "Panda",
-        "iconUrl": "images/panda2.svg"
+        "iconUrl": "static/images/panda2.svg"
       },
       "geometry": {
         "coordinates": [
@@ -15,7 +80,8 @@
         ],
         "type": "Point"
       },
-      "id": "0a27f4417134be5cbcc018c8f5fdb3c9"
+      "id": "0a27f4417134be5cbcc018c8f5fdb3c9"	
+
     },
     {
       "type": "Feature",
@@ -23,7 +89,7 @@
         "title": "Bornean Orangutan",
         "description": "The Bornean orangutan differs in appearance from the Sumatran orangutan, with a broader face and shorter beard and also slightly darker in color",
         "icon": "Orangutan",
-        "iconUrl": "images/orangutan.svg"
+        "iconUrl": "static/images/orangutan.svg"
       },
       "geometry": {
         "coordinates": [
@@ -40,7 +106,7 @@
         "title": "Sumatran Elephant",
         "description": "Sumatran elephants feed on a variety of plants and deposit seeds wherever they go, contributing to a healthy forest ecosystem",
         "icon": "Elephant",
-        "iconUrl": "images/elephant.svg"
+        "iconUrl": "static/images/elephant.svg"
       },
       "geometry": {
         "coordinates": [
@@ -57,7 +123,7 @@
         "title": "Bonobo",
         "description": "Bonobos are usually a bit smaller, leaner and darker than chimpanzees",
         "icon": "Chimpanzee",
-        "iconUrl": "images/chimpanzee2.svg"
+        "iconUrl": "static/images/chimpanzee2.svg"
       },
       "geometry": {
         "coordinates": [
@@ -74,7 +140,7 @@
         "title": "Narwhal",
         "description": "The narwhal looks like a cross between a whale and a unicorn with its long, spiraled tusk jutting from its head",
         "icon": "Narwhal",
-        "iconUrl": "images/narwhal.svg"
+        "iconUrl": "static/images/narwhal.svg"
       },
       "geometry": {
         "coordinates": [
@@ -91,7 +157,7 @@
         "title": "Yangtze Finless Porpoise",
         "description": "The Yangtze River, the longest river in Asia, used to be one of the only two rivers in the world that was home to two different species of dolphin—the Yangtze finless porpoise and the Baiji dolphin",
         "icon": "Dolphin",
-        "iconUrl": "images/dolphin.svg"
+        "iconUrl": "static/images/dolphin.svg"
       },
       "geometry": {
         "coordinates": [
@@ -108,7 +174,7 @@
         "title": "Marine Iguana",
         "description": "One of the main nesting zones for iguanas is located on a central tourist beach in the waterfront area of Puerto Villamil on Isabela Island",
         "icon": "Iguana",
-        "iconUrl": "images/iguana.svg"
+        "iconUrl": "static/images/iguana.svg"
       },
       "geometry": {
         "coordinates": [
@@ -125,7 +191,7 @@
         "title": "Great White Shark",
         "description": "The great white shark is the world's largest known predatory fish. It has 300 teeth, yet does not chew its food",
         "icon": "Shark",
-        "iconUrl": "images/shark.svg"
+        "iconUrl": "static/images/shark.svg"
       },
       "geometry": {
         "coordinates": [
@@ -142,12 +208,12 @@
         "title": "Dugong",
         "description": "Dugongs are cousins of manatees and share a similar plump appearance, but have a dolphin fluke-like tail",
         "icon": "Sea Cow",
-        "iconUrl": "images/seacow.svg"
+        "iconUrl": "static/images/seacow.svg"
       },
       "geometry": {
         "coordinates": [
-          -173.921639,
-          58.285395
+          -146.759639,
+          10.285395
         ],
         "type": "Point"
       },
@@ -159,7 +225,7 @@
         "title": "African Wild Dog",
         "description": "The largest populations remain in southern Africa and the southern part of East Africa (especially Tanzania and northern Mozambique)",
         "icon": "Dog",
-        "iconUrl": "images/dog1.svg"
+        "iconUrl": "static/images/dog1.svg"
       },
       "geometry": {
         "coordinates": [
@@ -176,7 +242,7 @@
         "title": "Beluga",
         "description": "Belugas are extremely sociable mammals that live, hunt and migrate together in pods, ranging from a few individuals to hundreds of whales",
         "icon": "Whale",
-        "iconUrl": "images/whale.svg"
+        "iconUrl": "static/images/whale.svg"
       },
       "geometry": {
         "coordinates": [
@@ -193,7 +259,7 @@
         "title": "Polar Bear",
         "description": "Polar bears are classified as marine mammals because they spend most of their lives on the sea ice of the Arctic Ocean",
         "icon": "Polar Bear",
-        "iconUrl": "images/polarbear.svg"
+        "iconUrl": "static/images/polarbear.svg"
       },
       "geometry": {
         "coordinates": [
@@ -210,7 +276,7 @@
         "title": "Hippopotamus",
         "description": "The hippopotamus, also known as the “river horse,” lives along the rivers and lakes throughout sub-Saharan Africa",
         "icon": "Hippopotamus",
-        "iconUrl": "images/hippo.svg"
+        "iconUrl": "static/images/hippopotamus.svg"
       },
       "geometry": {
         "coordinates": [
@@ -227,7 +293,7 @@
         "title": "Bluefin Tuna",
         "description": "Bluefin tuna are made for speed: built like torpedoes, have retractable fins and their eyes are set flush to their body",
         "icon": "Fish",
-        "iconUrl": "images/fish.svg"
+        "iconUrl": "static/images/fish.svg"
       },
       "geometry": {
         "coordinates": [
@@ -244,7 +310,7 @@
         "title": "Bigeye Tuna",
         "description": "Bigeye tuna are generally smaller than bluefin and larger than yellowfin",
         "icon": "Fish",
-        "iconUrl": "images/fish.svg"
+        "iconUrl": "static/images/fish.svg"
       },
       "geometry": {
         "coordinates": [
@@ -261,7 +327,7 @@
         "title": "Sea Lions",
         "description": "Sea lions haul out in large colonies on rocks and sandy shores on the Islands",
         "icon": "Sea Lions",
-        "iconUrl": "images/sealion.svg"
+        "iconUrl": "static/images/sealion.svg"
       },
       "geometry": {
         "coordinates": [
@@ -278,7 +344,7 @@
         "title": "Rockhopper Penguin",
         "description": "They were named for their distinctive hopping movements over the rocky hills and cliffs where they live and breed",
         "icon": "Penguin",
-        "iconUrl": "images/penguin.svg"
+        "iconUrl": "static/images/penguin.svg"
       },
       "geometry": {
         "coordinates": [
@@ -295,7 +361,7 @@
         "title": "Malayan Tiger",
         "description": "Their Latin name—Panthera tigris jacksoni—honors Peter Jackson, the famous tiger conservationist",
         "icon": "Tiger",
-        "iconUrl": "images/tiger.svg"
+        "iconUrl": "static/images/tiger.svg"
       },
       "geometry": {
         "coordinates": [
@@ -312,7 +378,7 @@
         "title": "Blue Whale",
         "description": "The blue whale is the largest animal on the planet, weighing as much as 200 tons (approximately 33 elephants)",
         "icon": "Whale",
-        "iconUrl": "images/whale.svg"
+        "iconUrl": "static/images/whale.svg"
       },
       "geometry": {
         "coordinates": [
@@ -329,7 +395,7 @@
         "title": "Hawksbill Turtle",
         "description": "Hawksbills are found mainly throughout the world's tropical oceans, predominantly in coral reefs",
         "icon": "Turtle",
-        "iconUrl": "images/turtle.svg"
+        "iconUrl": "static/images/turtle.svg"
       },
       "geometry": {
         "coordinates": [
@@ -346,7 +412,7 @@
         "title": "Black Rhino",
         "description": "Black rhinos are the smaller of the two African rhino species",
         "icon": "Rhino",
-        "iconUrl": "images/rhino.svg"
+        "iconUrl": "static/images/rhino.svg"
       },
       "geometry": {
         "coordinates": [
@@ -363,7 +429,7 @@
         "title": "Jaguar",
         "description": "Jaguars are strong swimmers and climbers and require large areas of tropical rain forest and stretches of riverbank to survive",
         "icon": "Jaguar",
-        "iconUrl": "images/tiger.svg"
+        "iconUrl": "static/images/tiger.svg"
       },
       "geometry": {
         "coordinates": [
@@ -380,7 +446,7 @@
         "title": "Hunphead Wrasse",
         "description": "The humphead wrasse is an enormous coral reef fish—growing over six feet long—with a prominent bulge on its forehead",
         "icon": "Fish",
-        "iconUrl": "images/fish.svg"
+        "iconUrl": "static/images/fish.svg"
       },
       "geometry": {
         "coordinates": [
@@ -397,7 +463,7 @@
         "title": "Amur Leopard",
         "description": "The Amur leopard is also known as the Far East leopard, the Manchurian leopard or the Korean leopard",
         "icon": "Leopard",
-        "iconUrl": "images/tiger.svg"
+        "iconUrl": "static/images/tiger.svg"
       },
       "geometry": {
         "coordinates": [
@@ -414,7 +480,7 @@
         "title": "Black Spider Monkey",
         "description": "The black spider monkey—also known as the Guiana or red-faced spider monkey—is found in eastern South America in areas north of the Amazon River",
         "icon": "Monkey",
-        "iconUrl": "images/monkey.svg"
+        "iconUrl": "static/images/monkey.svg"
       },
       "geometry": {
         "coordinates": [
@@ -431,7 +497,7 @@
         "title": "Vaquita",
         "description": "Vaquita, the world’s most rare marine mammal, is on the edge of extinction",
         "icon": "Dolphin",
-        "iconUrl": "images/dolphin.svg"
+        "iconUrl": "static/images/dolphin.svg"
       },
       "geometry": {
         "coordinates": [
@@ -448,7 +514,7 @@
         "title": "Cross River Gorilla",
         "description": "This subspecies of the western gorilla is very similar in appearance to the more numerous western lowland gorilla",
         "icon": "Gorilla",
-        "iconUrl": "images/gorilla.svg"
+        "iconUrl": "static/images/gorilla.svg"
       },
       "geometry": {
         "coordinates": [
@@ -465,7 +531,7 @@
         "title": "Plain Bisons",
         "description": "Symbols of strength and determination, bison are Ice Age survivors",
         "icon": "Bison",
-        "iconUrl": "images/bison.svg"
+        "iconUrl": "static/images/bison.svg"
       },
       "geometry": {
         "coordinates": [
@@ -482,7 +548,7 @@
         "title": "Snow Leopard",
         "description": "The snow leopard’s powerful build allows it to scale great steep slopes with ease",
         "icon": "Leopard",
-        "iconUrl": "images/tiger.svg"
+        "iconUrl": "static/images/tiger.svg"
       },
       "geometry": {
         "coordinates": [
@@ -499,12 +565,12 @@
         "title": "Green Turtle",
         "description": "The green turtle is one of the largest sea turtles and the only herbivore among the different species",
         "icon": "Turtle",
-        "iconUrl": "images/turtle.svg"
+        "iconUrl": "static/images/turtle.svg"
       },
       "geometry": {
         "coordinates": [
-          -89.651735,
-          0.444004
+          -87.651735,
+          0.464004
         ],
         "type": "Point"
       },
@@ -516,7 +582,7 @@
         "title": "Saolo",
         "description": "Saola (pronounced: sow-la) are recognized by two parallel horns with sharp ends, which can reach 20 inches in length",
         "icon": "Deer",
-        "iconUrl": "images/deer.svg"
+        "iconUrl": "static/images/deer.svg"
       },
       "geometry": {
         "coordinates": [
@@ -533,7 +599,7 @@
         "title": "Indian Elephant",
         "description": "Indian elephants may spend up to 19 hours a day feeding and they can produce about 220 pounds of dung per day while wandering over an area that can cover up to 125 square miles",
         "icon": "Elephant",
-        "iconUrl": "images/elephant.svg"
+        "iconUrl": "static/images/elephant.svg"
       },
       "geometry": {
         "coordinates": [
@@ -547,3 +613,32 @@
   ],
   "type": "FeatureCollection"
 }
+
+
+geojson.features.forEach(function(marker) {
+    var ele = document.createElement('div');
+    ele.className = 'marker';
+    ele.style.backgroundImage = 'url(' + marker.properties.iconUrl + ')';
+    new mapboxgl.Marker(ele)
+    .setLngLat(marker.geometry.coordinates)
+    .setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
+    .setHTML('<h1>' + marker.properties.title + '</h1><p>' + marker.properties.description + 
+    '<form action="/animal" method="POST" id="myForm"><input type="hidden" id="xyz" name="species" value="' + marker.properties.title+ '"/></p><input type="submit" id="ani" value="Know More"></button></form>'))
+    .addTo(map);
+});
+
+window.onload = function(){
+  ani = document.getElementById('ani');
+  form = document.getElementById('myForm');
+  inp = document.getElementById('xyz');
+  //console.log('inp.value()')
+  ani.onclick() = function() {
+    form.action = '/animal'
+  }
+}
+
+</script>
+
+
+    </body>
+</html>

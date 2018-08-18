@@ -3,6 +3,9 @@
         <meta charset="utf-8">
         <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.47.0/mapbox-gl.js'></script>
         <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.47.0/mapbox-gl.css' rel='stylesheet' />
         <style>
@@ -265,23 +268,6 @@ var geojson = {
         "type": "Point"
       },
       "id": "7293fd7660dffdb0e197b0cac6d8cb13"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Hippopotamus",
-        "description": "The hippopotamus, also known as the “river horse,” lives along the rivers and lakes throughout sub-Saharan Africa",
-        "icon": "Hippopotamus",
-        "iconUrl": "images/hippo.svg"
-      },
-      "geometry": {
-        "coordinates": [
-          34.446529,
-          10.618102
-        ],
-        "type": "Point"
-      },
-      "id": "7d7c98a36ae95166fbb21678122eb2d2"
     },
     {
       "type": "Feature",
@@ -613,15 +599,23 @@ var geojson = {
 
 geojson.features.forEach(function(marker) {
     var ele = document.createElement('div');
-    console.log(marker.properties.title );
     ele.className = 'marker';
     ele.style.backgroundImage = 'url(' + marker.properties.iconUrl + ')';
     new mapboxgl.Marker(ele)
     .setLngLat(marker.geometry.coordinates)
     .setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
-    .setHTML('<h1>' + marker.properties.title  + '</h1><p>' + marker.properties.description + '</p><button><a href="marker.properties.title.html"> Click me </a></button>'))
+    .setHTML('<h1>' + marker.properties.title + '</h1><p>' + marker.properties.description + 
+    '<form action="/animal" method="POST" id="myForm"><input type="hidden" name="species" value="marker.properties.title"/></p><input type="submit" id="ani">Click Me </button></form>'))
     .addTo(map);
 });
+
+window.onload = function(){
+  ani = document.getElementById('ani');
+  form = document.getElementById('myForm');
+  ani.onclick() = function() {
+    form.action = '/animal'
+  }
+}
 
 </script>
 
