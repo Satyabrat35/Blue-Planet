@@ -269,7 +269,16 @@
         {
             "name":"Indian Elephant",
             "iframe":"https://api.mapbox.com/styles/v1/erik35/cjkzcmfae46i62soa7787ces5.html?fresh=true&title=true&access_token=pk.eyJ1IjoiZXJpazM1IiwiYSI6ImNqYm0yYTZmaTRya2gycnFmYndvanFwMzIifQ.HeBrixh5h2c1qRLhve7lIg#8.0/34.243000/-118.076000/0",
-            "style":"mapbox://styles/erik35/cjkzcmfae46i62soa7787ces5"
+            "style":"mapbox://styles/erik35/cjkzcmfae46i62soa7787ces5",
+            "facts":"ndian elephants may spend up to 19 hours a day feeding and they can produce about 220 pounds of dung per day while wandering over an area that can cover up to 125 square miles. This helps to disperse germinating seeds. They feed mainly on grasses, but large amounts of tree bark, roots, leaves and small stems are also eaten. Cultivated crops such as bananas, rice and sugarcane are favored foods as well. Since they need to drink at least once a day, these elephants are always close to a source of fresh water.",
+            "status":"Endangered",
+            "habitat":"Grasslands, Forests",
+            "scientific name":"Elephas maximus indicus",
+            "places":"India",
+            "matter":"Elephants are not only a cultural icon in India and throughout Asia, they also help to maintain the integrity of their forest and grassland habitats.",
+            "pic_1":"",
+            "pic_2":"",
+            "pic_3":""
         },
         {
             "name":"Red Panda",
@@ -302,37 +311,100 @@
         {
             "name":"Malayan Tiger",
             "iframe":"https://api.mapbox.com/styles/v1/erik35/cjkziftyu0ym32ql8fgigplxh.html?fresh=true&title=true&access_token=pk.eyJ1IjoiZXJpazM1IiwiYSI6ImNqYm0yYTZmaTRya2gycnFmYndvanFwMzIifQ.HeBrixh5h2c1qRLhve7lIg#0.8/27.598788/63.951980/0",
-            "style":"mapbox://styles/erik35/cjkziftyu0ym32ql8fgigplxh"
+            "style":"mapbox://styles/erik35/cjkziftyu0ym32ql8fgigplxh",
+            "facts":"Malayan tigers were classified as Indochinese tigers until DNA testing in 2004 showed them to be a separate subspecies. Their Latin name—Panthera tigris jacksoni—honors Peter Jackson, the famous tiger conservationist. Malayan tigers are found only on the Malay Peninsula and in the southern tip of Thailand.",
+            "status":"Critically Endangered",
+            "scientific name":"Panthera tigris jacksoni",
+            "habitat":"Grasslands, Wetlands",
+            "places":"Malay Peninsula",
+            "matter":"Protecting tiger habitats in Malaysia safeguards other species such as Asian elephants and mainland clouded leopards.",
+            "pic_1":"",
+            "pic_2":"",
+            "pic_3":""        
         },
         {
             "name":"Saola",
             "iframe":"https://api.mapbox.com/styles/v1/erik35/cjkziqvor4c772soaybl4z9mj.html?fresh=true&title=true&access_token=pk.eyJ1IjoiZXJpazM1IiwiYSI6ImNqYm0yYTZmaTRya2gycnFmYndvanFwMzIifQ.HeBrixh5h2c1qRLhve7lIg#8.0/34.243000/-118.076000/0",
-            "style":"mapbox://styles/erik35/cjkziqvor4c772soaybl4z9mj"
+            "style":"mapbox://styles/erik35/cjkziqvor4c772soaybl4z9mj",
+            "facts":"Saola (pronounced: sow-la) are recognized by two parallel horns with sharp ends, which can reach 20 inches in length and are found on both males and females. Meaning “spindle horns” in Vietnamese, they are a cousin of cattle but resemble an antelope. Saola have striking white markings on the face and large maxillary glands on the muzzle, which could be used to mark territory or attract mates. They are found only in the Annamite Mountains of Vietnam and Laos",
+            "status":"Critically Endangered",
+            "scientific name":"Pseudoryx nghetinhensis",
+            "places":"Greater Mekong",
+            "matter":"The actual size of the remaining population is unknown. Its rarity, distinctiveness and vulnerability make it one of the greatest priorities for conservation in the region.",
+            "habitat":"Evergreen Forests",
+            "pic_1":"",
+            "pic_2":"",
+            "pic_3":""
         },
         {
             "name":"Sumatran Elephant",
             "iframe":"https://api.mapbox.com/styles/v1/erik35/cjkzj1evg0zja2sp9v6c0kw7n.html?fresh=true&title=true&access_token=pk.eyJ1IjoiZXJpazM1IiwiYSI6ImNqYm0yYTZmaTRya2gycnFmYndvanFwMzIifQ.HeBrixh5h2c1qRLhve7lIg#8.0/34.243000/-118.076000/0",
-            "style":"mapbox://styles/erik35/cjkzj1evg0zja2sp9v6c0kw7n"
+            "style":"mapbox://styles/erik35/cjkzj1evg0zja2sp9v6c0kw7n",
+            "facts":"Sumatran elephants feed on a variety of plants and deposit seeds wherever they go, contributing to a healthy forest ecosystem. They also share their lush forest habitat with several other endangered species, such as the Sumatran rhino, tiger, and orangutan, and countless other species that all benefit from an elephant population that thrives in a healthy habitat.",
+            "habitat":"Broadleaf Forests",
+            "status":"Critically Endangered",
+            "scientific name":"Elephas maximus sumatranus",
+            "places":"Sumatra",
+            "matter":"Sumatran elephants feed on a variety of plants and deposit seeds wherever they go, contributing to a healthy forest ecosystem.",
+            "pic_1":"",
+            "pic_2":"",
+            "pic_3":""
         },
         {
             "name":"Bornean Orangutan",
             "iframe":"https://api.mapbox.com/styles/v1/erik35/cjkzjeopw4cp22rqtovh9iqy5.html?fresh=true&title=true&access_token=pk.eyJ1IjoiZXJpazM1IiwiYSI6ImNqYm0yYTZmaTRya2gycnFmYndvanFwMzIifQ.HeBrixh5h2c1qRLhve7lIg#8.0/34.243000/-118.076000/0",
-            "style":"mapbox://styles/erik35/cjkzjeopw4cp22rqtovh9iqy5"
+            "style":"mapbox://styles/erik35/cjkzjeopw4cp22rqtovh9iqy5",
+            "facts":"Bornean orangutan populations have declined by more than 50% over the past 60 years, and the species' habitat has been reduced by at least 55% over the past 20 years.The Bornean orangutan differs in appearance from the Sumatran orangutan, with a broader face and shorter beard and also slightly darker in color. Three subspecies are recognized, each localized to different parts of the island.",
+            "status":"Critically Endangered",
+            "scientific name":"Pongo pygmaeus",
+            "habitat":"Lowland Rainforests",
+            "places":"Sumatra",
+            "matter":"Orangutans play a critical role in seed dispersal, keeping forests healthy. Over 500 plant species have been recorded in their diet.",
+            "pic_1":"",
+            "pic_2":"",
+            "pic_3":""
         },
         {
             "name":"Yangtze Finless Porpoise",
             "iframe":"https://api.mapbox.com/styles/v1/erik35/cjkzjnk7l4czl2rnylhezxzf4.html?fresh=true&title=true&access_token=pk.eyJ1IjoiZXJpazM1IiwiYSI6ImNqYm0yYTZmaTRya2gycnFmYndvanFwMzIifQ.HeBrixh5h2c1qRLhve7lIg#8.0/34.243000/-118.076000/0",
-            "style":"mapbox://styles/erik35/cjkzjnk7l4czl2rnylhezxzf4"
+            "style":"mapbox://styles/erik35/cjkzjnk7l4czl2rnylhezxzf4",
+            "facts":"The Yangtze River, the longest river in Asia, used to be one of the only two rivers in the world that was home to two different species of dolphin—the Yangtze finless porpoise and the Baiji dolphin. However, in 2006 the Baiji dolphin was declared functionally extinct. This was the first time in history that an entire species of dolphin had been wiped off the planet because of human activity. Its close cousin, the Yangtze finless porpoise, is known for its mischievous smile and has a level of intelligence comparable to that of a gorilla.",
+            "status":"Critically Endangered",
+            "scientific name":"Neophocaena asiaeorientalis",
+            "habitat":"Lakes and Rivers",
+            "places":"Yangtze",
+            "matter":"Finless porpoises need an abundant food supply for survival. The destruction of the Baiji dolphin food supply was central to its extinction.",
+            "pic_1":"",
+            "pic_2":"",
+            "pic_3":""
         },
         {
             "name":"Amur Leopard",
             "iframe":"https://api.mapbox.com/styles/v1/erik35/cjkzk9io964yv2slkh7aw8yuk.html?fresh=true&title=true&access_token=pk.eyJ1IjoiZXJpazM1IiwiYSI6ImNqYm0yYTZmaTRya2gycnFmYndvanFwMzIifQ.HeBrixh5h2c1qRLhve7lIg#8.0/34.243000/-118.076000/0",
-            "style":"mapbox://styles/erik35/cjkzk9io964yv2slkh7aw8yuk"
+            "style":"mapbox://styles/erik35/cjkzk9io964yv2slkh7aw8yuk",
+            "facts":"The Amur leopard is solitary. Nimble-footed and strong, it carries and hides unfinished kills so that they are not taken by other predators. It has been reported that some males stay with females after mating, and may even help with rearing the young. Several males sometimes follow and fight over a female. They live for 10-15 years, and in captivity up to 20 years. The Amur leopard is also known as the Far East leopard, the Manchurian leopard or the Korean leopard.",
+            "habitat":"Temperate Forests",
+            "status":"Critically Endangered",
+            "scientific name":"Panthera pardus orientalis",
+            "places":"Amur-Heilong",
+            "matter":"The Amur leopard is important ecologically, economically and culturally. Conservation of its habitat benefits other species, including Amur tigers and prey species like deer.",
+            "pic_1":"",
+            "pic_2":"",
+            "pic_3":""
         },
         {
             "name":"Humphead Wrasse",
             "iframe":"https://api.mapbox.com/styles/v1/erik35/cjkzkmioo111a2sp9ku37m6s4.html?fresh=true&title=true&access_token=pk.eyJ1IjoiZXJpazM1IiwiYSI6ImNqYm0yYTZmaTRya2gycnFmYndvanFwMzIifQ.HeBrixh5h2c1qRLhve7lIg#8.0/34.243000/-118.076000/0",
-            "style":"mapbox://styles/erik35/cjkzkmioo111a2sp9ku37m6s4"
+            "style":"mapbox://styles/erik35/cjkzkmioo111a2sp9ku37m6s4",
+            "facts":"The humphead wrasse is an enormous coral reef fish—growing over six feet long—with a prominent bulge on its forehead. Some of them live to be over 30 years old. They roam through coral reefs in search of hard shelled prey such as mollusks, starfish, or crustaceans. WWF urges local governments in the Coral Triangle to stop the trade and consumption of humphead wrasse—one of the most expensive live reef fishes in the world. Live reef fish trade in Southeast Asia continues to be a significant problem that threatens the region’s food security as well as its reefs, as poachers often resort to legal and destructive fishing methods to catch them.",
+            "status":"Endangered",
+            "habitat":"Oceans",
+            "scientific name":"Cheilinus undulatus",
+            "places":"Coral Triangle, Coastal East Africa",
+            "matter":"These fish are very important to coral reef health. They eat crown-of-thorn starfish and therefore keep populations of this damaging coral reef predator in check.",
+            "pic_1":"",
+            "pic_2":"",
+            "pic_3":""
         },
         {
             "name":"Rockhopper Penguin",
@@ -351,7 +423,16 @@
         {
             "name":"Polar Bear",
             "iframe":"https://api.mapbox.com/styles/v1/erik35/cjkzl6nvh1lgt2sof7pc70g1y.html?fresh=true&title=true&access_token=pk.eyJ1IjoiZXJpazM1IiwiYSI6ImNqYm0yYTZmaTRya2gycnFmYndvanFwMzIifQ.HeBrixh5h2c1qRLhve7lIg#8.0/34.243000/-118.076000/0",
-            "style":"mapbox://styles/erik35/cjkzl6nvh1lgt2sof7pc70g1y"
+            "style":"mapbox://styles/erik35/cjkzl6nvh1lgt2sof7pc70g1y",
+            "facts":"Polar bears are classified as marine mammals because they spend most of their lives on the sea ice of the Arctic Ocean. They have a thick layer of body fat and a water-repellant coat that insulates them from the cold air and water. Considered talented swimmers, they can sustain a pace of six miles per hour by paddling with their front paws and holding their hind legs flat like a rudder.",
+            "status":"Vulnerable",
+            "scientific name":"Ursus maritimus",
+            "habitat":"Artic sea ice",
+            "places":"Artic",
+            "matter":"Polar bears are at the top of the food chain and have an important role in the overall health of the marine environment. Over thousands of years, polar bears have also been an important part of the cultures and economies of Arctic peoples.",
+            "pic_1":"",
+            "pic_2":"",
+            "pic_3":""
         }
     ]
 }
