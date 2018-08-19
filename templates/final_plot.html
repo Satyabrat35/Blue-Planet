@@ -273,23 +273,6 @@ var geojson = {
     {
       "type": "Feature",
       "properties": {
-        "title": "Hippopotamus",
-        "description": "The hippopotamus, also known as the “river horse,” lives along the rivers and lakes throughout sub-Saharan Africa",
-        "icon": "Hippopotamus",
-        "iconUrl": "static/images/hippopotamus.svg"
-      },
-      "geometry": {
-        "coordinates": [
-          34.446529,
-          10.618102
-        ],
-        "type": "Point"
-      },
-      "id": "7d7c98a36ae95166fbb21678122eb2d2"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "title": "Bluefin Tuna",
         "description": "Bluefin tuna are made for speed: built like torpedoes, have retractable fins and their eyes are set flush to their body",
         "icon": "Fish",
@@ -622,8 +605,8 @@ geojson.features.forEach(function(marker) {
     new mapboxgl.Marker(ele)
     .setLngLat(marker.geometry.coordinates)
     .setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
-    .setHTML('<h1>' + marker.properties.title + '</h1><p>' + marker.properties.description + 
-    '<form action="/animal" method="POST" id="myForm"><input type="hidden" id="xyz" name="species" value="' + marker.properties.title+ '"/></p><input type="submit" id="ani" value="Know More"></button></form>'))
+    .setHTML('<h2 style="color:indianred">' + marker.properties.title + '</h2><p>' + marker.properties.description + 
+    '<form action="/animal" method="POST" id="myForm"><input type="hidden" id="xyz" name="species" value="' + marker.properties.title+ '"/></p><input type="submit" id="ani" value="Know More" class="btn btn-info"></form>'))
     .addTo(map);
 });
 

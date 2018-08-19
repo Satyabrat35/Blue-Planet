@@ -8,14 +8,19 @@ WTF_CSRF_ENABLED = True
 
 @app.route('/')
 def home():
+    y = 0
+    title = ""
     return render_template('final_plot.html')
 
 @app.route('/animal',methods=['POST'])
 def animals():
     name = request.form['species']
-    url = 'https://api.myjson.com/bins/ylvyc' #test link
+    url = 'https://api.jsonbin.io/b/5b794f7a6376d24455a89004/2'
+    headers = {
+        'secret-key': '$2a$10$dKH7Mf31dIBNqbaH4Pcw4ucLNGMgr5ggMdBTBczssMZBsvNUyQePS'
+    }
 
-    r = requests.get(url)
+    r = requests.get(url, headers=headers)
     if r.status_code == 200:
         resp = r.json()
         data = resp['features']
@@ -41,7 +46,7 @@ def animals():
         print("Error..")
         return render_template('final_plot.html')
 
-    
+ 
 
 if __name__ == "__main__":
     app.run(debug=True)

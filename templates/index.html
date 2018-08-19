@@ -92,17 +92,29 @@
    
         <div class="container-fluid">
     <div class="navbar-header">
-      <a class="nav-link js-scroll-trigger" href="#"><h1> WebSiteName  &nbsp &nbsp </h1></a>
+      <a class="nav-link js-scroll-trigger" href="#"><h1> &nbsp WebSiteName &nbsp </h1></a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="#page-top"> <h3> Home &nbsp &nbsp </h3> </a></li>
-      <li><a class = nav-link js-scroll-trigger href="#download"> <h3> Facts &nbsp &nbsp </h3> </a></li>
-      <li><a class = nav-link js-scroll-trigger  href="#features"> <h3> Why They Matter &nbsp &nbsp </h3></a></li>
-      <li><a class = nav-link js-scroll-trigger  href="#helpus"> <h3> How Can You Help &nbsp &nbsp </h3></a></li>
-      <li><a class = nav-link js-scroll-trigger  href="#contact"> <h3> Contact Us &nbsp &nbsp </h3></a></li>
+      <li class="active"><a href="#page-top"> <h3> &nbsp Home &nbsp  </h3> </a></li>
+      <li><a class = nav-link js-scroll-trigger href="#download"> <h3> &nbsp Facts &nbsp </h3> </a></li>
+      <li><a class = nav-link js-scroll-trigger  href="#features"> <h3> &nbsp Why They Matter &nbsp </h3></a></li>
+      <li><a class = nav-link js-scroll-trigger  href="#helpus"> <h3> &nbsp How Can You Help &nbsp </h3></a></li>
+      <li><a class = nav-link js-scroll-trigger  href="#contact"> <h3> &nbsp Contact Us &nbsp </h3></a></li>
     </ul>
+    <div>
+      <form action="/" id="myForm" style="padding-top:13px;padding-left:40px;"><input type="submit" class="btn btn-info" value=" Home " id="back"></form>
+    </div>
   </div>
   </nav>
+  <script>
+  window.onload = function() {
+    back = document.getElementById('back')
+    form = document.getElementById('myForm')
+    back.onclick() = function() {
+      form.action = '/'
+    }
+  }
+  </script>
 
 
     <header class="masthead">
@@ -132,15 +144,15 @@
     </ol>
     <div class="carousel-inner" role="listbox">
         <div class="carousel-item active">
-            <img src="/static/pictures/a1.jpg" alt="First slide" width="100%" height="600">
+            <img src="/static/pictures/iguana_1.jpg" alt="First slide" width="1150" height="600">
         </div>
      
         <div class="carousel-item">
-            <img src="/static/pictures/a2.jpg" alt="Second slide" width="100%" height="600">
+            <img src="/static/pictures/iguana_2.jpg" alt="Second slide" width="1150" height="600">
         </div>
 
         <div class="carousel-item">
-            <img src="/static/pictures/a3.jpg" alt="Third slide" width="100%" height="600">
+            <img src="/static/pictures/iguana_3.jpg" alt="Third slide" width="1150" height="600">
         </div>
 
     </div>
@@ -261,7 +273,7 @@
                   <div class="row">
                     <div class="col-lg-4">
                         <h4 style="padding-left: 8px;padding-top: 10px;color: blueviolet;font-weight: 500"><strong>JOIN WWF'S CONSERVATION EFFORT</strong></h4>
-                        <p style="padding-left: 8px;font-size: 15px"> You can protect threatened species and their habitats today with a donation to World Wildlife Fund.
+                        <p style="padding-left: 8px;font-size: 15px"> You can protect threatened species and their habitats today with a donation to WWF.
                            Your support of WWF's global conservation work will make a world of difference.
                         </p>
                     </div>
