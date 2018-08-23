@@ -10,7 +10,7 @@ WTF_CSRF_ENABLED = True
 def home():
     y = 0
     title = ""
-    return render_template('final_plot.html')
+    return render_template('home.html')
 
 @app.route('/animal',methods=['POST'])
 def animals():
@@ -44,7 +44,7 @@ def animals():
         return render_template('index.html',title=title,facts=facts,iframe=iframe,status=status,scientific_name=scientific_name,habitat=habitat,places=places,matter=matter)
     else:
         print("Error..")
-        return render_template('final_plot.html')
+        return render_template('home.html')
 
  
 
