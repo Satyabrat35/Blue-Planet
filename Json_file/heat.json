@@ -1,9 +1,9 @@
 {
     "features": [
       {
-        "pic_3": "",
-        "pic_2": "",
-        "pic_1": "",
+        "pic_3": "/static/pictures/narwhal_1.jpg",
+        "pic_2": "/static/pictures/narwhal_2.jpg",
+        "pic_1": "/static/pictures/narwhal_3.jpg",
         "matter": "Narwhals are also culturally important to indigenous communities in the Arctic. Like polar bears, the narwhal depends on sea ice for its existence and can be directly impacted by climate change.",
         "places": "Artic Waters",
         "scientific name": "Monodon monoceros",
@@ -15,9 +15,9 @@
         "name": "Narwhal"
       },
       {
-        "pic_3": "",
-        "pic_2": "",
-        "pic_1": "",
+        "pic_3": "/static/pictures/iguana_1.jpg",
+        "pic_2": "/static/pictures/iguana_2.jpg",
+        "pic_1": "/static/pictures/iguana_3.jpg",
         "matter": "Marine iguanas are the world’s only oceangoing lizard. They are also only found in the Galápagos, where they can be seen resting on the rocky shores.",
         "places": "The Galápagos",
         "scientific name": "Amblyrhynchus cristatus",
@@ -29,9 +29,9 @@
         "name": "Marine Iguana"
       },
       {
-        "pic_3": "",
-        "pic_2": "",
-        "pic_1": "",
+        "pic_3": "/static/pictures/beluga_1.jpg",
+        "pic_2": "/static/pictures/beluga_2.jpg",
+        "pic_1": "/static/pictures/beluga_3.jpg",
         "matter": "Whales, like the beluga, are at the top of the food chain and have an important role in the overall health of the marine environment. Beluga whales are also culturally important to indigenous communities in the Arctic.",
         "places": "Artic Waters",
         "scientific name": "Delphinapterus leucas",
@@ -43,9 +43,9 @@
         "name": "Beluga"
       },
       {
-        "pic_3": "",
-        "pic_2": "",
-        "pic_1": "",
+        "pic_3": "/static/pictures/bison_1.jpg",
+        "pic_2": "/static/pictures/bison_2.jpg",
+        "pic_1": "/static/pictures/bison_3.jpg",
         "matter": "Historically bison were the dominant grazer on the Northern Great Plains landscape. This dominance shaped the landscape by affecting the pattern and structure of the grasses and vegetation that grew. ",
         "places": "Northern Great Plains",
         "scientific name": "Bison bison bison",
@@ -57,9 +57,9 @@
         "name": "Plain Bisons"
       },
       {
-        "pic_3": "",
-        "pic_2": "",
-        "pic_1": "",
+        "pic_3": "/static/pictures/vaquita_1.jpg",
+        "pic_2": "/static/pictures/vaquita_2.jpg",
+        "pic_1": "/static/pictures/vaquita_3.jpg",
         "matter": "The vaquita is the most endangered cetacean in the world. With as few as 30 left, the species will become extinct without a fully enforced gillnet ban throughout their entire range.",
         "places": "Gulf of California",
         "scientific name": "Phocoena sinus",
@@ -71,9 +71,9 @@
         "name": "Vaquita"
       },
       {
-        "pic_3": "",
-        "pic_2": "",
-        "pic_1": "",
+        "pic_3": "/static/pictures/shark_1.jpg",
+        "pic_2": "/static/pictures/shark_2.jpg",
+        "pic_1": "/static/pictures/shark_3.jpg",
         "matter": "As large and powerful predators, great white sharks play an important role at the top of the marine food chain. Despite its fame and reputation, little is actually known about the great white shark’s biology and behavior.",
         "places": "Gulf of California, Southern Chile",
         "scientific name": "Carcharodon carcharias",
@@ -85,9 +85,9 @@
         "name": "Great White Shark"
       },
       {
-        "pic_3": "",
-        "pic_2": "",
-        "pic_1": "",
+        "pic_3": "/static/pictures/dugong_1.jpg",
+        "pic_2": "/static/pictures/dugong_2.jpg",
+        "pic_1": "/static/pictures/dugong_3.jpg",
         "matter": "Dugongs have become an important tourist attraction. Tourists can swim with them or observe them from boats.",
         "places": "Coral Triangle, Coastal East Africa",
         "scientific name": "Dugong dugon",
@@ -99,9 +99,9 @@
         "name": "Dugong"
       },
       {
-        "pic_3": "",
-        "pic_2": "",
-        "pic_1": "",
+        "pic_3": "/static/pictures/crgorilla_1.JPG",
+        "pic_2": "/static/pictures/crgorilla_2.jpg",
+        "pic_1": "/static/pictures/crgorilla_3.jpg",
         "matter": "Gorillas, the largest living primates, make their homes in central Africa. Poaching, disease and habitat destruction remain threats for gorillas, and WWF is working to designate new protected areas where populations can thrive.",
         "places": "Congo Basin",
         "scientific name": "Gorilla gorilla diehli",
@@ -113,9 +113,9 @@
         "name": "Cross River Gorilla"
       },
       {
-        "pic_3": "",
-        "pic_2": "",
-        "pic_1": "",
+        "pic_3": "/static/pictures/greenturtle_1.jpg",
+        "pic_2": "/static/pictures/greenturtle_2.jpg",
+        "pic_1": "/static/pictures/greenturtle_3.jpg",
         "matter": "Green turtles graze on seagrasses and algae, which maintains the seagrass beds and makes them more productive (much like mowing the lawn to keep it healthy).",
         "places": "Gulf of California, The Galápagos",
         "scientific name": "Chelonia mydas",
@@ -127,9 +127,9 @@
         "name": "Green Turtle"
       },
       {
-        "pic_3": "",
-        "pic_2": "",
-        "pic_1": "",
+        "pic_3": "/static/pictures/sealion_1.jpg",
+        "pic_2": "/static/pictures/sealion_2.jpg",
+        "pic_1": "/static/pictures/sealion_3.jpg",
         "matter": "The sea lion is the most common mammal in the Galápagos.",
         "places": "The Galápagos",
         "scientific name": "Zalophus wollebaeki",
@@ -141,9 +141,9 @@
         "name": "Sea Lions"
       },
       {
-        "pic_3": "",
-        "pic_2": "",
-        "pic_1": "",
+        "pic_3": "/static/pictures/bluewhale_1.jpg",
+        "pic_2": "/static/pictures/bluewhale_2.jpg",
+        "pic_1": "/static/pictures/bluewhale_3,jpg",
         "matter": "During the 20th century, the blue whale was an important whaling target and even after it was protected and commercial whaling stopped in 1966, exploitation efforts by the former Soviet Union persisted.",
         "places": "Gulf of California, Southern Chile",
         "scientific name": "Balaenoptera musculus",
@@ -155,9 +155,9 @@
         "name": "Blue Whale"
       },
       {
-        "pic_3": "",
-        "pic_2": "",
-        "pic_1": "",
+        "pic_3": "/static/pictures/monkey_1.jpg",
+        "pic_2": "/static/pictures/monkey_2.jpg",
+        "pic_1": "/static/pictures/monkey_3.jpg",
         "matter": "The black spider monkey is an essential part of the tropical rainforest ecosystem. They play a key role in seed dispersal, allowing their forest environment to continue to grow and thrive.",
         "places": "Amazon",
         "scientific name": "Ateles paniscus",
@@ -169,9 +169,9 @@
         "name": "Black Spider Monkey"
       },
       {
-        "pic_3": "",
-        "pic_2": "",
-        "pic_1": "",
+        "pic_3": "/static/pictures/jaguar_1.jpg",
+        "pic_2": "/static/pictures/jaguar_2.jpg",
+        "pic_1": "/static/pictures/jaguar_3.jpg",
         "matter": "Solitary, beautiful, and elusive, the jaguar is the biggest native feline to roam the Americas.",
         "places": "Amazon",
         "scientific name": "Panthera onca",
@@ -183,9 +183,9 @@
         "name": "Jaguar"
       },
       {
-        "pic_3": "",
-        "pic_2": "",
-        "pic_1": "",
+        "pic_3": "/static/pictures/bluefin_3.jpg",
+        "pic_2": "/static/pictures/bluefin_2.jpg",
+        "pic_1": "/static/pictures/bluefin_1.jpg",
         "matter": "The Atlantic bluefin is a highly sought-after delicacy for sushi and sashimi in Asia—a single fish has sold for over $1.75 million! Driven by such high prices, fishermen use even more refined techniques to catch tuna. And the fish are disappearing as a result.",
         "places": "Coral Triangle",
         "habitat": "Oceans",
@@ -197,9 +197,9 @@
         "name": "Bluefin Tuna"
       },
       {
-        "pic_3": "",
-        "pic_2": "",
-        "pic_1": "",
+        "pic_3": "/static/pictures/bonobo_1.jpg",
+        "pic_2": "/static/pictures/bonobo_2.JPG",
+        "pic_1": "/static/pictures/bonobo_3.png",
         "matter": "Bonobos share 98.7% of their genetic code with humans, making them, along with chimpanzees, our closest living relatives. As the last great ape to be scientifically discovered, much still remains unknown about the bonobo.",
         "places": "Congo Basin",
         "habitat": "Tropical Forests",
@@ -211,9 +211,9 @@
         "name": "Bonobo"
       },
       {
-        "pic_3": "",
-        "pic_2": "",
-        "pic_1": "",
+        "pic_3": "/static/pictures/bkrhino_1.jpg",
+        "pic_2": "/static/pictures/bkrhino_2.jpg",
+        "pic_1": "/static/pictures/bkrhino_3.jpg",
         "matter": "Rhinos are one of the oldest groups of mammals, virtually living fossils. They play an important role in their habitats and in countries like Namibia, rhinos are an important source of income from ecotourism.",
         "places": "Namibia, Coastal East Africa",
         "habitat": "Semi-Desert Savannah",
@@ -225,9 +225,9 @@
         "name": "Black Rhino"
       },
       {
-        "pic_3": "",
-        "pic_2": "",
-        "pic_1": "",
+        "pic_3": "/static/pictures/wilddog_1.jpg",
+        "pic_2": "/static/pictures/wilddog_2.jpg",
+        "pic_1": "/static/pictures/wilddog_3.jpg",
         "matter": "Major threats to the survival of wild dogs include accidental and targeted killings by humans, viral diseases like rabies and distemper, habitat loss and competition with larger predators like lions. Conflicts occur when wild dogs come in contact with people whose livelihoods rest largely on livestock and agriculture.",
         "places": "Coastal East Africa",
         "habitat": "Grasslands, Forests",
@@ -239,9 +239,9 @@
         "name": "African Wild Dog"
       },
       {
-        "pic_3": "",
-        "pic_2": "",
-        "pic_1": "",
+        "pic_3": "/static/pictures/hawks_1.jpg",
+        "pic_2": "/static/pictures/hawks_2.jpg",
+        "pic_1": "/static/pictures/hawks_3.jpg",
         "matter": "Hawksbills help maintain the health of coral reefs. As they remove prey such as sponges from the reef's surface, they provide better access for reef fish to feed.  They also have cultural significance and tourism value.",
         "places": "Mesoamerican Reef",
         "habitat": "Oceans",
@@ -253,9 +253,9 @@
         "name": "Hawksbill Turtle"
       },
       {
-        "pic_3": "",
-        "pic_2": "",
-        "pic_1": "",
+        "pic_3": "/static/pictures/bigeye_1.jpg",
+        "pic_2": "/static/pictures/bigeye_2.jpg",
+        "pic_1": "/static/pictures/bigeye_3.jpg",
         "matter": "Bigeye tuna are an important commercial fish, usually marketed as fresh or frozen. Although tuna do provide food and livelihoods for people, they are more than just seafood. Tuna are a top predator in the marine food chain, maintaining a balance in the ocean environment.",
         "places": "Indian Ocean, Coastal East Africa",
         "habitat": "Oceans",
@@ -267,9 +267,9 @@
         "name": "Bigeye Tuna"
       },
       {
-        "pic_3": "",
-        "pic_2": "",
-        "pic_1": "",
+        "pic_3": "/static/pictures/inele_1.jpg",
+        "pic_2": "/static/pictures/inele_2.jpeg",
+        "pic_1": "/static/pictures/inele_3.jpg",
         "matter": "Elephants are not only a cultural icon in India and throughout Asia, they also help to maintain the integrity of their forest and grassland habitats.",
         "places": "India",
         "scientific name": "Elephas maximus indicus",
@@ -281,9 +281,9 @@
         "name": "Indian Elephant"
       },
       {
-        "pic_3": "",
-        "pic_2": "",
-        "pic_1": "",
+        "pic_3": "/static/pictures/red_1.jpg",
+        "pic_2": "/static/pictures/red_2.jpg",
+        "pic_1": "/static/pictures/red_3.jpg",
         "matter": "Almost 50 percent of the red panda’s habitat is in the Eastern Himalayas. The loss of nesting trees and bamboo is causing a decline in red panda populations across much of their range because their forest home is being cleared.",
         "habitat": "Temperate Forests",
         "places": "Eastern Himalayas",
@@ -295,9 +295,9 @@
         "name": "Red Panda"
       },
       {
-        "pic_3": "",
-        "pic_2": "",
-        "pic_1": "",
+        "pic_3": "/static/pictures/snowleo_1.jpg",
+        "pic_2": "/static/pictures/snowleo_2.jpg",
+        "pic_1": "/static/pictures/snowleo_3.jpg",
         "matter": "Snow leopards play a key role as both top predator and as an indicator of the health of their high-altitude habitat. If snow leopards thrive, so will countless other species.",
         "scientific name": "Panthera uncia",
         "places": "Eastern Himalayas",
@@ -309,9 +309,9 @@
         "name": "Snow Leopard"
       },
       {
-        "pic_3": "",
-        "pic_2": "",
-        "pic_1": "",
+        "pic_3": "/static/pictures/malayantiger_1.jpg",
+        "pic_2": "/static/pictures/malayantiger_2.jpg",
+        "pic_1": "/static/pictures/malayantiger_3.jpg",
         "matter": "Protecting tiger habitats in Malaysia safeguards other species such as Asian elephants and mainland clouded leopards.",
         "places": "Malay Peninsula",
         "habitat": "Grasslands, Wetlands",
@@ -323,9 +323,9 @@
         "name": "Malayan Tiger"
       },
       {
-        "pic_3": "",
-        "pic_2": "",
-        "pic_1": "",
+        "pic_3": "/static/pictures/saola_1.jpg",
+        "pic_2": "/static/pictures/saola_2.jpg",
+        "pic_1": "/static/pictures/saola_3.jpg",
         "habitat": "Evergreen Forests",
         "matter": "The actual size of the remaining population is unknown. Its rarity, distinctiveness and vulnerability make it one of the greatest priorities for conservation in the region.",
         "places": "Greater Mekong",
@@ -337,9 +337,9 @@
         "name": "Saola"
       },
       {
-        "pic_3": "",
-        "pic_2": "",
-        "pic_1": "",
+        "pic_3": "/static/pictures/sumatraele_1.jpg",
+        "pic_2": "/static/pictures/sumatraele_2.jpg",
+        "pic_1": "/static/pictures/sumatraele_3.jpg",
         "matter": "Sumatran elephants feed on a variety of plants and deposit seeds wherever they go, contributing to a healthy forest ecosystem.",
         "places": "Sumatra",
         "scientific name": "Elephas maximus sumatranus",
@@ -351,9 +351,9 @@
         "name": "Sumatran Elephant"
       },
       {
-        "pic_3": "",
-        "pic_2": "",
-        "pic_1": "",
+        "pic_3": "/static/pictures/orangutan_1.jpg",
+        "pic_2": "/static/pictures/orangutan_2.jpg",
+        "pic_1": "/static/pictures/orangutan_3.jpg",
         "matter": "Orangutans play a critical role in seed dispersal, keeping forests healthy. Over 500 plant species have been recorded in their diet.",
         "places": "Sumatra",
         "habitat": "Lowland Rainforests",
@@ -365,9 +365,9 @@
         "name": "Bornean Orangutan"
       },
       {
-        "pic_3": "",
-        "pic_2": "",
-        "pic_1": "",
+        "pic_3": "/static/pictures/yangtze_1.jpg",
+        "pic_2": "/static/pictures/yangtze_2.jpg",
+        "pic_1": "/static/pictures/yangtze_3.jpg",
         "matter": "Finless porpoises need an abundant food supply for survival. The destruction of the Baiji dolphin food supply was central to its extinction.",
         "places": "Yangtze",
         "habitat": "Lakes and Rivers",
@@ -379,9 +379,9 @@
         "name": "Yangtze Finless Porpoise"
       },
       {
-        "pic_3": "",
-        "pic_2": "",
-        "pic_1": "",
+        "pic_3": "/static/pictures/amur_1.jpg",
+        "pic_2": "/static/pictures/amur_2.jpg",
+        "pic_1": "/static/pictures/amur_3.jpg",
         "matter": "The Amur leopard is important ecologically, economically and culturally. Conservation of its habitat benefits other species, including Amur tigers and prey species like deer.",
         "places": "Amur-Heilong",
         "scientific name": "Panthera pardus orientalis",
@@ -393,9 +393,9 @@
         "name": "Amur Leopard"
       },
       {
-        "pic_3": "",
-        "pic_2": "",
-        "pic_1": "",
+        "pic_3": "/static/pictures/wrasse_1.jpg",
+        "pic_2": "/static/pictures/wrasse_2.jpg",
+        "pic_1": "/static/pictures/wrasse_3.jpg",
         "matter": "These fish are very important to coral reef health. They eat crown-of-thorn starfish and therefore keep populations of this damaging coral reef predator in check.",
         "places": "Coral Triangle, Coastal East Africa",
         "scientific name": "Cheilinus undulatus",
@@ -407,9 +407,9 @@
         "name": "Humphead Wrasse"
       },
       {
-        "pic_3": "",
-        "pic_2": "",
-        "pic_1": "",
+        "pic_3": "/static/pictures/rock_1.jpg",
+        "pic_2": "/static/pictures/rock_2.jpg",
+        "pic_1": "/static/pictures/rock_3.jpg",
         "matter": "Southern rockhopper penguins are the smallest of the crested penguins weighing only 2–3.8 kg. They are thus only bigger than little penguins.",
         "scientific name": "Eudyptes chrysocome",
         "places": "Southern New Zealand",
@@ -421,9 +421,9 @@
         "name": "Rockhopper Penguin"
       },
       {
-        "pic_3": "",
-        "pic_2": "",
-        "pic_1": "",
+        "pic_3": "/static/pictures/polar_1.jpg",
+        "pic_2": "/static/pictures/polar_2.jpg",
+        "pic_1": "/static/pictures/polar_3.jpg",
         "matter": "Polar bears are at the top of the food chain and have an important role in the overall health of the marine environment. Over thousands of years, polar bears have also been an important part of the cultures and economies of Arctic peoples.",
         "places": "Artic",
         "habitat": "Artic sea ice",
