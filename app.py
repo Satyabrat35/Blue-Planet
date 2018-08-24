@@ -46,7 +46,7 @@ def animals():
         
         return render_template('index.html',title=title,facts=facts,iframe=iframe,status=status,scientific_name=scientific_name,habitat=habitat,places=places,matter=matter,pic_1=pic_1,pic_2=pic_2,pic_3=pic_3)
     else:
-        print("Error..")
+        #print("Error..")
         return render_template('home.html')
 
  
