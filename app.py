@@ -8,14 +8,19 @@ WTF_CSRF_ENABLED = True
 
 @app.route('/')
 def home():
-    return render_template('final_plot.html')
+    y = 0
+    title = ""
+    return render_template('home.html')
 
 @app.route('/animal',methods=['POST'])
 def animals():
     name = request.form['species']
-    url = 'https://api.myjson.com/bins/ylvyc' #test link
+    url = 'https://api.jsonbin.io/b/5b794f7a6376d24455a89004/7'
+    headers = {
+        'secret-key': '$2a$10$dKH7Mf31dIBNqbaH4Pcw4ucLNGMgr5ggMdBTBczssMZBsvNUyQePS'
+    }
 
-    r = requests.get(url)
+    r = requests.get(url, headers=headers)
     if r.status_code == 200:
         resp = r.json()
         data = resp['features']
@@ -35,13 +40,16 @@ def animals():
         habitat = data[y]['habitat']
         places = data[y]['places']
         matter = data[y]['matter']
-        print(name,status,places)
-        return render_template('index.html',title=title,facts=facts,iframe=iframe,status=status,scientific_name=scientific_name,habitat=habitat,places=places,matter=matter)
+        pic_1 = data[y]['pic_1']
+        pic_2 = data[y]['pic_2']
+        pic_3 = data[y]['pic_3']
+        
+        return render_template('index.html',title=title,facts=facts,iframe=iframe,status=status,scientific_name=scientific_name,habitat=habitat,places=places,matter=matter,pic_1=pic_1,pic_2=pic_2,pic_3=pic_3)
     else:
         print("Error..")
-        return render_template('final_plot.html')
+        return render_template('home.html')
 
-    
+ 
 
 if __name__ == "__main__":
     app.run(debug=True)
