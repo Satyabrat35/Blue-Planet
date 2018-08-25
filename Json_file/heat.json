@@ -43,7 +43,7 @@
         "name": "Beluga"
       },
       {
-        "pic_3": "/static/pictures/bison_1.jpg",
+        "pic_3": "/static/pictures/bison_1.jpeg",
         "pic_2": "/static/pictures/bison_2.jpg",
         "pic_1": "/static/pictures/bison_3.jpg",
         "matter": "Historically bison were the dominant grazer on the Northern Great Plains landscape. This dominance shaped the landscape by affecting the pattern and structure of the grasses and vegetation that grew. ",
@@ -376,7 +376,7 @@
         "facts": "The Yangtze River, the longest river in Asia, used to be one of the only two rivers in the world that was home to two different species of dolphin—the Yangtze finless porpoise and the Baiji dolphin. However, in 2006 the Baiji dolphin was declared functionally extinct. This was the first time in history that an entire species of dolphin had been wiped off the planet because of human activity. Its close cousin, the Yangtze finless porpoise, is known for its mischievous smile and has a level of intelligence comparable to that of a gorilla.",
         "style": "mapbox://styles/erik35/cjkzjnk7l4czl2rnylhezxzf4",
         "iframe": "https://api.mapbox.com/styles/v1/erik35/cjkzjnk7l4czl2rnylhezxzf4.html?fresh=true&title=true&access_token=pk.eyJ1IjoiZXJpazM1IiwiYSI6ImNqYm0yYTZmaTRya2gycnFmYndvanFwMzIifQ.HeBrixh5h2c1qRLhve7lIg#4.3/30.111/120.763/0",
-        "name": "Yangtze Finless Porpoise"
+        "name": "Yangtze Porpoise"
       },
       {
         "pic_3": "/static/pictures/amur_1.jpg",
@@ -409,7 +409,7 @@
       {
         "pic_3": "/static/pictures/rock_1.jpg",
         "pic_2": "/static/pictures/rock_2.jpg",
-        "pic_1": "/static/pictures/rock_3.jpg",
+        "pic_1": "/static/pictures/rock_3.jpeg",
         "matter": "Southern rockhopper penguins are the smallest of the crested penguins weighing only 2–3.8 kg. They are thus only bigger than little penguins.",
         "scientific name": "Eudyptes chrysocome",
         "places": "Southern New Zealand",

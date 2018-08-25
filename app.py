@@ -15,7 +15,7 @@ def home():
 @app.route('/animal',methods=['POST'])
 def animals():
     name = request.form['species']
-    url = 'https://api.jsonbin.io/b/5b794f7a6376d24455a89004/7'
+    url = 'https://api.jsonbin.io/b/5b794f7a6376d24455a89004/9'
     headers = {
         'secret-key': '$2a$10$dKH7Mf31dIBNqbaH4Pcw4ucLNGMgr5ggMdBTBczssMZBsvNUyQePS'
     }
