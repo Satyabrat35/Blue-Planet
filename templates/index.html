@@ -16,17 +16,19 @@
     <script src="/static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="/static/vendor/jquery-easing/jquery.easing.min.js"></script>
     <script src="/static/js/new-age.min.js"></script>
+    <script src="/static/js/caro.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Alex Brush' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Annie Use Your Telescope' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Crafty Girls' rel='stylesheet'>
     <link rel="stylesheet" href="/static/icofont/icofont.min.css">
+    <link rel="stylesheet" href="/static/css/caro.css">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
 
 
-    <title>Marine Iguana</title>
+    <title>The Red Book</title>
     <style>
     .carousel-inner > .item > img,
     .carousel-inner > .item > a > img {
@@ -92,14 +94,14 @@
    
         <div class="container-fluid">
     <div class="navbar-header">
-      <a class="nav-link js-scroll-trigger" href="#"><h1> &nbsp WebSiteName &nbsp </h1></a>
+      <a class="nav-link js-scroll-trigger" href="#"><h1> &nbsp The Red Book &nbsp </h1></a>
     </div>
     <ul class="nav navbar-nav">
       <li class="active"><a href="#page-top"> <h3> &nbsp Home &nbsp  </h3> </a></li>
       <li><a class = nav-link js-scroll-trigger href="#download"> <h3> &nbsp Facts &nbsp </h3> </a></li>
       <li><a class = nav-link js-scroll-trigger  href="#features"> <h3> &nbsp Why They Matter &nbsp </h3></a></li>
       <li><a class = nav-link js-scroll-trigger  href="#helpus"> <h3> &nbsp How Can You Help &nbsp </h3></a></li>
-      <li><a class = nav-link js-scroll-trigger  href="#contact"> <h3> &nbsp Contact Us &nbsp </h3></a></li>
+      <li><a class = nav-link js-scroll-trigger  href="#contact"> <h3> &nbsp Contact Us &nbsp &nbsp</h3></a></li>
     </ul>
     <div>
       <form action="/" id="myForm" style="padding-top:13px;padding-left:40px;"><input type="submit" class="btn btn-info" value=" Home " id="back"></form>
@@ -290,8 +292,143 @@
       </div>
     </section>
 
-    <section class="contact bg-primary" id="contact">
+    <section>
       <div class="container">
+          <div class="section-heading text-center">
+              <h2 style="color:indianred"> RELATED SPECIES </h2>
+              <br/><br/><br/>
+            </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="carousel slide multi-item-carousel" id="theCarousel">
+              <div class="carousel-inner">
+                <div class="item active">
+                  <div class="col-xs-4"><a href= {{url_for('save',variable="Blue Whale")}}><img src="/static/pictures/bluewhale_1.jpg"  height="300" width="300"></a></div>
+                </div>
+                <div class="item">
+                  <div class="col-xs-4"><a href={{url_for('save',variable="Plain Bisons")}}><img src="/static/pictures/bison_1.jpeg"  height="300" width="300"></a></div>
+                </div>
+                <div class="item">
+                  <div class="col-xs-4"><a href= {{url_for('save',variable="Black Rhino")}}><img src="/static/pictures/bkrhino_1.jpg"  height="300" width="300"></a></div>
+                </div>
+                <div class="item">
+                  <div class="col-xs-4"><a href= {{url_for('save',variable="Bluefin Tuna")}}><img src="/static/pictures/bluefin_1.jpg"  height="300" width="300"></a></div>
+                </div>
+                <div class="item">
+                  <div class="col-xs-4"><a href= {{url_for('save',variable="Bigeye Tuna")}}><img src="/static/pictures/bigeye_1.jpg"  height="300" width="300"></a></div>
+                </div>
+                <div class="item">
+                  <div class="col-xs-4"><a href= {{url_for('save',variable="Beluga")}}><img src="/static/pictures/beluga_1.jpg" height="300" width="300"></a></div>
+                </div>
+                <!-- add  more items here -->
+                <!-- Example item start:  -->
+                
+                <div class="item">
+                  <div class="col-xs-4"><a href= {{url_for('save',variable="Amur Leopard")}}><img src="/static/pictures/amur_1.jpg"  height="300" width="300"></a></div>
+                </div>
+                <div class="item">
+                    <div class="col-xs-4"><a href= {{url_for('save',variable="Bonobo")}}><img src="/static/pictures/bonobo_1.jpg"  height="300" width="300"></a></div>
+                  </div>
+                <div class="item">
+                    <div class="col-xs-4"><a href= {{url_for('save',variable="Cross River Gorilla")}}><img src="/static/pictures/crgorilla_2.jpg"  height="300" width="300"></a></div>
+                  </div>
+                <div class="item">
+                    <div class="col-xs-4"><a href= {{url_for('save',variable="Dugong")}}><img src="/static/pictures/dugong_1.jpg"  height="300" width="300"></a></div>
+                  </div>
+                <div class="item">
+                    <div class="col-xs-4"><a href= {{url_for('save',variable="Green Turtle")}}><img src="/static/pictures/greenturtle_1.jpg"  height="300" width="300"></a></div>
+                  </div>
+                  <div class="item">
+                      <div class="col-xs-4"><a href= {{url_for('save',variable="Hawksbill Turtle")}}><img src="/static/pictures/hawks_1.jpg"  height="300" width="300"></a></div>
+                    </div>    
+                  <div class="item">
+                      <div class="col-xs-4"><a href= {{url_for('save',variable="Marine Iguana")}}><img src="/static/pictures/iguana_1.jpg"  height="300" width="300"></a></div>
+                    </div>
+                  <div class="item">
+                      <div class="col-xs-4"><a href= {{url_for('save',variable="Indian Elephant")}}><img src="/static/pictures/inele_1.jpg"  height="300" width="300"></a></div>
+                    </div>
+                  <div class="item">
+                      <div class="col-xs-4"><a href= {{url_for('save',variable="Jaguar")}}><img src="/static/pictures/jaguar_1.jpg"  height="300" width="300"></a></div>
+                    </div>
+                  <div class="item">
+                      <div class="col-xs-4"><a href= {{url_for('save',variable="Malayan Tiger")}}><img src="/static/pictures/malayantiger_1.jpg"  height="300" width="300"></a></div>
+                    </div>
+                  <div class="item">
+                      <div class="col-xs-4"><a href= {{url_for('save',variable="Black Spider Monkey")}}><img src="/static/pictures/monkey_1.jpg"  height="300" width="300"></a></div>
+                    </div>
+                  <div class="item">
+                      <div class="col-xs-4"><a href= {{url_for('save',variable="Narwhal")}}><img src="/static/pictures/narwhal_1.jpg"  height="300" width="300"></a></div>
+                    </div>
+                  <div class="item">
+                      <div class="col-xs-4"><a href= {{url_for('save',variable="Bornean Orangutan")}}><img src="/static/pictures/orangutan_1.jpg"  height="300" width="300"></a></div>
+                    </div>
+                  <div class="item">
+                      <div class="col-xs-4"><a href= {{url_for('save',variable="Polar Bear")}}><img src="/static/pictures/polar_1.jpg"  height="300" width="300"></a></div>
+                    </div>   
+                  <div class="item">
+                      <div class="col-xs-4"><a href= {{url_for('save',variable="Red Panda")}}><img src="/static/pictures/red_1.jpg"  height="300" width="300"></a></div>
+                    </div>
+                  <div class="item">
+                      <div class="col-xs-4"><a href= {{url_for('save',variable="Rockhopper Penguin")}}><img src="/static/pictures/rock_1.jpg"  height="300" width="300"></a></div>
+                    </div>   
+                  <div class="item">
+                      <div class="col-xs-4"><a href= {{url_for('save',variable="Saola")}}><img src="/static/pictures/saola_1.jpg"  height="300" width="300"></a></div>
+                    </div>
+                  <div class="item">
+                      <div class="col-xs-4"><a href= {{url_for('save',variable="Sea Lions")}}><img src="/static/pictures/sealion_1.jpg"  height="300" width="300"></a></div>
+                    </div>
+                  <div class="item">
+                      <div class="col-xs-4"><a href= {{url_for('save',variable="Great White Shark")}}><img src="/static/pictures/shark_1.jpg"  height="300" width="300"></a></div>
+                    </div>
+                  <div class="item">
+                      <div class="col-xs-4"><a href= {{url_for('save',variable="Snow Leopard")}}><img src="/static/pictures/snowleo_1.jpg"  height="300" width="300"></a></div>
+                    </div>
+                  <div class="item">
+                      <div class="col-xs-4"><a href= {{url_for('save',variable="Sumatran Elephant")}}><img src="/static/pictures/sumatraele_1.jpg"  height="300" width="300"></a></div>
+                    </div>
+                  <div class="item">
+                      <div class="col-xs-4"><a href= {{url_for('save',variable="Vaquita")}}><img src="/static/pictures/vaquita_1.jpg"  height="300" width="300"></a></div>
+                    </div>
+                  <div class="item">
+                      <div class="col-xs-4"><a href= {{url_for('save',variable="African Wild Dog")}}><img src="/static/pictures/wilddog_1.jpg"  height="300" width="300"></a></div>
+                    </div>
+                  <div class="item">
+                      <div class="col-xs-4"><a href= {{url_for('save',variable="Humphead Wrasse")}}><img src="/static/pictures/wrasse_1.jpg"  height="300" width="300"></a></div>
+                    </div>
+                  <div class="item">
+                      <div class="col-xs-4"><a href= {{url_for('save',variable="Yangtze Porpoise")}}><img src="/static/pictures/yangtze_1.jpg"  height="300" width="300"></a></div>
+                    </div>
+                <!--  Example item end -->
+              </div>
+              <a class="left carousel-control" href="#theCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+              <a class="right carousel-control" href="#theCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script>
+        // Instantiate the Bootstrap carousel
+$('.multi-item-carousel').carousel({
+    interval: false
+  });
+  
+  // for every slide in carousel, copy the next slide's item in the slide.
+  // Do the same for the next, next item.
+  $('.multi-item-carousel .item').each(function(){
+    var next = $(this).next();
+    if (!next.length) {
+      next = $(this).siblings(':first');
+    }
+    next.children(':first-child').clone().appendTo($(this));
+    
+    if (next.next().length>0) {
+      next.next().children(':first-child').clone().appendTo($(this));
+    } else {
+        $(this).siblings(':first').children(':first-child').clone().appendTo($(this));
+    }
+  });
+      </script>
+      <!--<div class="container">
         <h3> nileshkumar1998@gmail.com </h3>
         <h3> satyabrat35@gmail.com </h3>
         <ul class="list-inline list-social">
@@ -311,12 +448,12 @@
             </a>
           </li>
         </ul>
-      </div>
+      </div>-->
     </section>
 
     <footer>
       <div class="container">
-        <p>&copy; Your Website 2018. All Rights Reserved.</p>
+        <p>Credits to World Wildlife Fund and Mapbox Studio ❤️</p>
         <ul class="list-inline">
           <li class="list-inline-item">
             <a href="#">Privacy</a>
