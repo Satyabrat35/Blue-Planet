@@ -1,5 +1,6 @@
 .multi-item-carousel .carousel-inner > .item {
     transition: 500ms ease-in-out left;
+    border-radius: 50%;
   }
   .multi-item-carousel .carousel-inner .active.left {
     left: -33%;
